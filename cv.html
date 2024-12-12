@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Dmitriy Karpov's CV</title>
+    <script>
+        const curr = 2;
+        const prev = +localStorage.getItem('version');
+        if (curr !== prev) {
+            localStorage.setItem('version', curr);
+            window.location.href = `${window.location.pathname}?v=${curr}`
+        }
+    </script>
     <style>
 
         body {
@@ -116,28 +124,6 @@
         <b>Other Technologies </b><br>
         Chrome Extensions, Telegram Mini Apps, Apache Cordova.
     </p>
-
-
-
-
-
-
-<!--    <ul>-->
-<!--        <li>Designing modular <b>CSS</b> systems with SCSS by combining SMACSS and BEM best practices</li>-->
-<!--        <li>Developing dynamic <b>JavaScript</b> solutions with modern ES6+ patterns</li>-->
-<!--        <li>Building complex <b>Vue.js</b> applications with strong, scalable architectures and SSR capabilities</li>-->
-<!--        <li>Creating powerful and secure <b>Node.js</b> backends with rapid RESTful APIs</li>-->
-<!--        <li>Designing robust <b>PostgreSQL</b> databases with advanced views and triggers</li>-->
-<!--    </ul>-->
-
-<!--    <h2>Story</h2>-->
-<!--    <p>I got into web development in 2011 as an HTML/CSS developer. My first projects involved creating static front-end for business, e-commerce, and entertainment sites. At that time, CSS3 began to gain popularity and I dug into experimenting with 3D transforms and animation. Some of my creations were quite popular on jsdo.it and <a>codepen.io</a>.</p>-->
-<!--    <p>After a few years, I acquired knowledge in JavaScript and was employed by a company where we designed HTML5 games and converted them into mobile apps using PhoneGap (Apache Cordova). Meanwhile, I discovered the MVC architecture and started using AngularJS for building single-page applications.</p>-->
-<!--    <p>In 2016, I decided to leave my full-time job and go freelancing. My focus was on various editors and data visualisation tools with the Canvas API. In addition, I have been making beautiful web animations. Performing on large contracts at the highest level quickly made me a top-rated freelancer on <a>Upwork</a>.</p>-->
-<!--    <p>Since 2019, Vue.js has become my main front-end framework, largely due to its single file components, clear API and SSR capabilities. Around the same time, I started using Directus for content management and began offering full-stack services.</p>-->
-<!--    <p>Starting in 2022, my passion for backend development grew and I began designing Node.js RESTful APIs and SQL databases, which enabled my applications to deliver data rapidly and provide excellent user experiences.</p>-->
-
-<!--    <div style="break-after:page"></div>-->
 
     <h2>Experience</h2>
     <ul class="reset history">
