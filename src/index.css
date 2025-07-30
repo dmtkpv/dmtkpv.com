@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+
+
+/* -------------------
+  Base
+------------------- */
+
+@layer base {
+
+    a { @apply
+        block;
+    }
+
+    button { @apply
+        cursor-pointer;
+    }
+
+    body { @apply
+        overflow-y-scroll
+        leading-[1.2];
+    }
+
+    svg { @apply
+        fill-current;
+    }
+
+}
+
+
+
+/* -------------------
+  Theme
+------------------- */
+
+@theme {
+
+    --header: --spacing(12);
+    --padding-x: --spacing(4);
+    --padding-y: --spacing(8);
+    --border: 1px solid var(--color-gray-200);
+    --scrollbar: 0px;
+
+    --text-sm: 13px;
+
+    --container-sm: 512px;
+    --container-lg: 1024px;
+
+    --breakpoint-lg: 1024px;
+    --breakpoint-sm: 544px; /* var(--container-sm) + 2 * var(--padding-x) */
+
+}
+
+
+
+/* -------------------
+  Utilities
+------------------- */
+
+@utility container-* {
+    margin-inline: auto;
+    max-width: --value(--container-*);
+}
+
+@utility border-bottom {
+    border-bottom: 1px solid var(--color-gray-300);
+}
+@utility border-top {
+    border-top: 1px solid var(--color-gray-300);
+}
+@utility border-right {
+    border-right: 1px solid var(--color-gray-300);
+}
+@utility border-left {
+    border-left: 1px solid var(--color-gray-300);
+}
+
+
+
+/* -------------------
+  Components
+------------------- */
+
+@layer components {
+
+    .no-scrollbar {
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+}
