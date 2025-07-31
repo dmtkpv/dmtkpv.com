@@ -25,8 +25,8 @@ export default [
     },
     {
         id: 'rechtsinformers-animated-logo',
-        title: 'Rechtsinformer animated logo',
-        date: 'June 2025',
+        title: 'Animated logo for Rechtsinformers',
+        date: 'May 2025',
         url: 'https://rechtsinformer.netlify.app/showcase.html',
         tags: ['HTML5 Canvas', 'GSAP', 'Rollup', 'Animation'],
         media: {
@@ -36,36 +36,38 @@ export default [
             background: '#010414'
         }
     },
-    // {
-    //     id: 'stage-app',
-    //     title: 'Stage App',
-    //     date: 'Oct 2024',
-    //     url: 'https://stage-app.nl/',
-    //     tags: ['PostgreSQL', 'ExpressJS', 'Directus', 'Stripe', 'Monorepo', 'Google Maps', 'Google Cloud Storage', 'Knex', 'Socket.io', 'Charts.js', 'Vue', 'Vite', 'SSR', 'SCSS', 'JWT'],
-    //     media: {
-    //         type: 'video'
-    //     }
-    // },
-    // {
-    //     id: 'odedwebman',
-    //     title: 'Oded Webman',
-    //     date: 'Sep 2023',
-    //     url: 'https://www.odedwebman.com',
-    //     tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'Fullstack', 'Scss'],
-    //     media: {
-    //         type: 'video',
-    //         background: '#dfdedc'
-    //     }
-    // },
-    // {
-    //     id: 'directus-grid',
-    //     title: 'Directus grid interface',
-    //     date: 'Aug 2023',
-    //     tags: ['Rollup', 'Vue', 'Directus'],
-    //     media: {
-    //         type: 'video'
-    //     }
-    // },
+    {
+        id: 'stage-app',
+        title: 'Stage App - Internship placement platform',
+        date: 'Oct 2024',
+        url: 'https://stage-app.nl/',
+        tags: ['PostgreSQL', 'ExpressJS', 'Directus', 'Stripe', 'Monorepo', 'Google Maps', 'Google Cloud Storage', 'Knex', 'Socket.io', 'Charts.js', 'Vue', 'Vite', 'SSR', 'SCSS', 'JWT', 'Node.js'],
+        media: {
+            type: 'video',
+            source: 'mov',
+        }
+    },
+    {
+        id: 'odedwebman',
+        title: 'Portfolio website for Oded Webman',
+        date: 'Sep 2023',
+        url: 'https://www.odedwebman.com',
+        tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS', 'Node.js'],
+        media: {
+            type: 'video',
+            source: 'mov'
+        }
+    },
+    {
+        id: 'directus-grid',
+        title: 'Directus grid interface',
+        date: 'Aug 2023',
+        tags: ['Rollup', 'Vue', 'Directus'],
+        media: {
+            type: 'video',
+            source: 'mov'
+        }
+    },
     // {
     //     id: 'jurgenostarhild',
     //     title: 'Jurgeno Starhild',
