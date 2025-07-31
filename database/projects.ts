@@ -20,8 +20,7 @@ export default [
         tags: ['Vue', 'Vite', 'IndexedDB', 'TailwindCSS', 'HTML5 Audio', 'PWA', 'Mobile App', 'UI/UX Design'],
         media: {
             type: 'video',
-            source: 'mov',
-            background: '#93c5fd'
+            source: 'mov'
         }
     },
     {
@@ -69,7 +68,7 @@ export default [
         media: {
             type: 'video',
             source: 'mov',
-            background: '#b3a2ff'
+            background: '#d1d5db'
         }
     },
     // {
