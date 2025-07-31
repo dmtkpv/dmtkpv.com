@@ -67,7 +67,7 @@
 
     import { computed } from 'vue'
     import { useState } from '~/plugins/state'
-    import projects from '~db/projects'
+    import projects from '../../database/projects'
 
     const state = useState();
 

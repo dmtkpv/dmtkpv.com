@@ -1,5 +1,5 @@
 import ffmpeg from 'fluent-ffmpeg'
-import projects from '~db/projects'
+import projects from './database/projects'
 
 
 

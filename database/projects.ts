@@ -20,7 +20,8 @@ export default [
         tags: ['Vue', 'Vite', 'IndexedDB', 'TailwindCSS', 'HTML5 Audio', 'PWA', 'Mobile App', 'UI/UX Design'],
         media: {
             type: 'video',
-            source: 'mov'
+            source: 'mov',
+            background: '#93c5fd'
         }
     },
     {
@@ -45,6 +46,7 @@ export default [
         media: {
             type: 'video',
             source: 'mov',
+            background: '#e7f2fe'
         }
     },
     {
@@ -55,7 +57,8 @@ export default [
         tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS', 'Node.js'],
         media: {
             type: 'video',
-            source: 'mov'
+            source: 'mov',
+            background: '#42220a'
         }
     },
     {
@@ -65,7 +68,8 @@ export default [
         tags: ['Rollup', 'Vue', 'Directus'],
         media: {
             type: 'video',
-            source: 'mov'
+            source: 'mov',
+            background: '#b3a2ff'
         }
     },
     // {

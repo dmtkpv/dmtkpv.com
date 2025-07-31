@@ -133,7 +133,7 @@
 
 <script setup lang="ts">
 
-    import contacts from '~db/contacts'
+    import contacts from '../../database/contacts'
     import { useState } from '~/plugins/state'
 
     const state = useState();

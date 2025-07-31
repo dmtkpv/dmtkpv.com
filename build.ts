@@ -1,5 +1,5 @@
 import createSSG from '@dmtkpv/ssg/createSSG'
-import tags from '~db/tags'
+import tags from './database/tags'
 
 const ssg = await createSSG();
 await ssg('/');

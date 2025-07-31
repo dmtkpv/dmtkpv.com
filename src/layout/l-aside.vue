@@ -118,7 +118,7 @@
 <script setup lang="ts">
 
 
-    import tags from '~db/tags'
+    import tags from '../../database/tags'
     import { useState } from '~/plugins/state'
 
     const state = useState();
