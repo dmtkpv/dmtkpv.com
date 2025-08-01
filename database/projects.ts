@@ -24,7 +24,7 @@ export default [
         }
     },
     {
-        id: 'rechtsinformers-animated-logo',
+        id: 'rechtsinformers',
         title: 'Animated logo for Rechtsinformers',
         date: 'May 2025',
         url: 'https://rechtsinformer.netlify.app/showcase.html',

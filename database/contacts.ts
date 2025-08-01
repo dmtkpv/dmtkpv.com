@@ -1,7 +1,7 @@
 export default [
     {
         icon: 'icon-codepen',
-        href: 'https://codepen.io/dmtkpv'
+        href: 'https://codepen.io/dmtkpv/pens/popular'
     },
     {
         icon: 'icon-github',
