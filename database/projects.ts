@@ -17,7 +17,7 @@ export default [
         title: 'Meditation player',
         date: 'June 2025',
         url: 'https://les-meditations-v2.vercel.app',
-        tags: ['Vue', 'Vite', 'IndexedDB', 'TailwindCSS', 'HTML5 Audio', 'PWA', 'Mobile App', 'UI/UX Design'],
+        tags: ['Vue', 'Vite', 'IndexedDB', 'TailwindCSS', 'HTML5 Audio', 'PWA', 'Mobile App', 'UI/UX Design', 'Vercel'],
         media: {
             type: 'video',
             source: 'mov'
@@ -38,14 +38,13 @@ export default [
     },
     {
         id: 'stage-app',
-        title: 'Stage App - Internship placement platform',
-        date: 'Oct 2024',
+        title: 'Stage App - internship placement platform',
+        date: 'Nov 2023 - Apr 2025',
         url: 'https://stage-app.nl/',
         tags: ['PostgreSQL', 'ExpressJS', 'Directus', 'Stripe', 'Monorepo', 'Google Maps', 'Google Cloud Storage', 'Knex', 'Socket.io', 'Charts.js', 'Vue', 'Vite', 'SSR', 'SCSS', 'JWT', 'Node.js'],
         media: {
             type: 'video',
-            source: 'mov',
-            background: '#e7f2fe'
+            source: 'mov'
         }
     },
     {

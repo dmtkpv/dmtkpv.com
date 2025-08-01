@@ -1,34 +1,40 @@
-| Date                | Project                 |
-|---------------------|-------------------------|
-| Sep 2023            | Webman                  |
-| Aug 2023            | Webman grid editor      |
-| Feb 2023            | Jurgen                  |
-| Aug 2022            | 2D Poisson disk sampling |
-| Nov 2021            | LvivSoft                |
-| Nov 2021            | Puffin Cafe             |
-| Aug 2021            | TabStats                |
-| Mar 2021            | Victor Arwas            |
-| Apr 2021            | World of Lightsail      |
-| ??? 2020            | Open rooms              |
-| Feb 2019            | Nutrition               |
-| Nov 2019            | holidaysnipe            |
-| Oct 2018            | upgames                 |
-| Jan 2018            | printfellow             |
-| May 2017            | SVG Icons               |
-| Jan 2017            | raymondwouters          |
-| Feb 2016            | Overland Logo           |
-| Nov 2016            | mediascheppers          |
-| Sep 2016            | vpn movie               |
-| Jul 2016            | map-signals             |
-| -                   | Ligare                  |
-| -                   | altaviasumis            |
-| -                   | barcode-editor          |
-| -                   | surveys                 |
-| -                   | avenues                 |
-| -                   | vialai-web              |
-| -                   | agrivent                |
-| -                   | Nebesa                  |
-| -                   | xit                     |
+| Date                 | Project                  |          |
+|----------------------|--------------------------|----------|
+| July 2025            | SSG                      | *        |
+| June 2025            | Meditations              | *        |
+| May 2025             | Rechtsinformers Logo     | *        |
+| Nov 2023 - Apr 2025  | Stage App                | *        |
+| Sep 2023             | Webman                   | *        |
+| Aug 2023             | Webman grid editor       | *        |
+| July 2023            | Jurgen                   | Feb 2023 |
+| Feb 2022 - July 2023 | Abwaab                   | *        |
+| Jan 2022             | 2D Poisson disk sampling | Aug 2022 |
+
+| Nov 2021!              | LvivSoft                 |
+| Nov 2021!              | Puffin Cafe              |
+| Aug 2021!              | TabStats                 |
+| May 2021!              | Victor Arwas             |
+| Mar 2021!              | World of Lightsail       |
+| Feb 2021!              | avenues                  |
+
+| ??? 2020               | Open rooms               | Mar 2019 - Apr 2020; Sep 2020 - Nov 2020 
+| Feb 2019               | Nutrition                |
+| Nov 2019               | holidaysnipe             |
+| Nov 2019               | Nebesa                   |
+| Sep 2019               | surveys                  |
+| Aug 2019               | barcode-editor           |
+| Jun 2019               | altaviasumis             |
+| Oct 2018               | upgames                  |
+| Jan 2018               | printfellow              |
+| May 2017               | SVG Icons                |
+| Jan 2017               | raymondwouters           |
+| Feb 2016               | Overland Logo            |
+| Nov 2016               | mediascheppers           |
+| Sep 2016               | vpn movie                |
+| Jul 2016               | map-signals              |
+| Oct 2016               | Ligare                   |
+| May 2020!              | vialai-web               |
+
 | Sep 2022            | Asset trade             |
 | Oct 2015            | arachnidorchestra.org   |
 | 2014                | chat                    |
