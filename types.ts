@@ -19,8 +19,11 @@ export type Project = {
     tags: string[],
     media: {
         type: 'video' | 'image',
-        source: 'png' | 'mov' | 'mp4'
         full?: boolean,
-        background?: string
+        background?: `#${string}`
+    },
+    ffmpeg: {
+        input: 'png' | 'mov' | 'mp4',
+        chromeFix?: boolean
     }
 }

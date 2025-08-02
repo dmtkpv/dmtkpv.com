@@ -9,7 +9,9 @@ export default [
         tags: ['Vue', 'Vite', 'Open Source', 'TypeScript', 'JSDOM', 'SSG', 'Monorepo', 'Node.js'],
         media: {
             type: 'image',
-            source: 'png',
+        },
+        ffmpeg: {
+            input: 'png'
         }
     },
     {
@@ -20,7 +22,9 @@ export default [
         tags: ['Vue', 'Vite', 'IndexedDB', 'TailwindCSS', 'HTML5 Audio', 'PWA', 'Mobile App', 'UI/UX Design', 'Vercel'],
         media: {
             type: 'video',
-            source: 'mov'
+        },
+        ffmpeg: {
+            input: 'mov'
         }
     },
     {
@@ -31,9 +35,11 @@ export default [
         tags: ['HTML5 Canvas', 'GSAP', 'Rollup', 'Animation'],
         media: {
             type: 'video',
-            source: 'mov',
             full: true,
             background: '#010414'
+        },
+        ffmpeg: {
+            input: 'mov'
         }
     },
     {
@@ -44,7 +50,10 @@ export default [
         tags: ['PostgreSQL', 'ExpressJS', 'Directus', 'Stripe', 'Monorepo', 'Google Maps', 'Google Cloud Storage', 'Knex', 'Socket.io', 'Charts.js', 'Vue', 'Vite', 'SSR', 'SCSS', 'JWT', 'Node.js'],
         media: {
             type: 'video',
-            source: 'mov'
+        },
+        ffmpeg: {
+            input: 'mov',
+            chromeFix: true
         }
     },
     {
@@ -55,8 +64,10 @@ export default [
         tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS', 'Node.js'],
         media: {
             type: 'video',
-            source: 'mov',
             background: '#42220a'
+        },
+        ffmpeg: {
+            input: 'mov'
         }
     },
     {
@@ -66,8 +77,10 @@ export default [
         tags: ['Rollup', 'Vue', 'Directus'],
         media: {
             type: 'video',
-            source: 'mov',
             background: '#d1d5db'
+        },
+        ffmpeg: {
+            input: 'mov'
         }
     },
     // {
