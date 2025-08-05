@@ -61,13 +61,14 @@ export default [
         title: 'Portfolio website for Oded Webman',
         date: 'Sep 2023',
         url: 'https://www.odedwebman.com',
-        tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS', 'Node.js'],
+        tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS', 'Node.js', 'Docker'],
         media: {
             type: 'video',
             background: '#42220a'
         },
         ffmpeg: {
-            input: 'mov'
+            input: 'mov',
+            chromeFix: true
         }
     },
     {
@@ -80,7 +81,8 @@ export default [
             background: '#d1d5db'
         },
         ffmpeg: {
-            input: 'mov'
+            input: 'mov',
+            chromeFix: true
         }
     },
     // {
@@ -88,7 +90,7 @@ export default [
     //     title: 'Jurgeno Starhild',
     //     date: 'Feb 2023',
     //     url: 'https://jurgenostarhild.eu/',
-    //     tags: ['Vite', 'Vue', 'SSR', 'Directus', 'MySQL', 'Fullstack'],
+    //     tags: ['Vite', 'Vue', 'SSR', 'Directus', 'MySQL', 'Fullstack', 'Docker'],
     //     media: {
     //         type: 'video'
     //     }
