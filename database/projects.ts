@@ -85,16 +85,20 @@ export default [
             chromeFix: true
         }
     },
-    // {
-    //     id: 'jurgenostarhild',
-    //     title: 'Jurgeno Starhild',
-    //     date: 'Feb 2023',
-    //     url: 'https://jurgenostarhild.eu/',
-    //     tags: ['Vite', 'Vue', 'SSR', 'Directus', 'MySQL', 'Fullstack', 'Docker'],
-    //     media: {
-    //         type: 'video'
-    //     }
-    // },
+    {
+        id: 'jurgenostarhild',
+        title: 'Jurgeno Starhild',
+        date: 'Feb 2023',
+        url: 'https://jurgenostarhild.eu/',
+        tags: ['Vite', 'Vue', 'SSR', 'Directus', 'MySQL'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mov',
+            chromeFix: true
+        }
+    },
     // {
     //     id: 'poisson',
     //     title: '2D Poisson disk sampling',
