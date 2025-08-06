@@ -87,7 +87,7 @@ export default [
     },
     {
         id: 'jurgenostarhild',
-        title: 'Jurgeno Starhild',
+        title: 'Portfolio website for Jurgeno Starhild',
         date: 'Aug 2023',
         url: 'https://jurgenostarhild.eu/',
         tags: ['Vite', 'Vue', 'SSR', 'Directus', 'MySQL', 'JSDOM'],
