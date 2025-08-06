@@ -100,9 +100,22 @@ export default [
         }
     },
     {
+        id: 'dmtkpv-ssr',
+        title: 'Server-side renderer for Vue 3',
+        date: 'July 2023',
+        url: 'https://github.com/dmtkpv/vite-vue-ssr',
+        tags: ['Vite', 'Vue', 'SSR', 'Open Source', 'Monorepo', 'Node.js', 'Express.js', 'JSDOM'],
+        media: {
+            type: 'image'
+        },
+        ffmpeg: {
+            input: 'png'
+        }
+    },
+    {
         id: 'abwaab',
         title: 'Learning managment system for Abwaab',
-        date: 'Feb 2022 - July 2023',
+        date: 'Feb 2022 - June 2023',
         url: 'https://abwaab.com/',
         tags: ['Vue', 'Directus', 'PostgreSQL', 'Docker', 'MathJax', 'Node.js', 'Rollup'],
         media: {
@@ -114,17 +127,57 @@ export default [
             chromeFix: true
         }
     },
+    // {
+    //     id: 'poisson',
+    //     title: '2D Poisson disk sampling',
+    //     date: 'Jan 2022',
+    //     url: 'https://github.com/dmtkpv/poisson',
+    //     tags: ['Webpack', 'HTML5 Canvas', 'Open Source'],
+    //     media: {
+    //         type: 'video'
+    //     },
+    //     ffmpeg: {
+    //         input: 'mov',
+    //     }
+    // },
     {
-        id: 'poisson',
-        title: '2D Poisson disk sampling',
-        date: 'Jan 2022',
-        url: 'https://github.com/dmtkpv/poisson',
-        tags: ['Webpack', 'HTML5 Canvas'],
+        id: 'tabstats',
+        title: 'Performance monitor extension for Chrome',
+        date: 'Sep 2021',
+        url: 'https://github.com/dmtkpv/tabstats',
+        tags: ['Chrome extension', 'HTML5 Canvas', 'Open Source'],
         media: {
-            type: 'video'
+            type: 'video',
+            background: '#e5e7eb'
         },
         ffmpeg: {
             input: 'mov',
         }
-    }
+    },
+    // {
+    //     id: 'lvivsoft',
+    //     title: 'Performance monitor extension for Chrome',
+    //     date: 'Sep 2021',
+    //     url: 'https://lvivsoft.com',
+    //     tags: ['Chrome extension', 'HTML5 Canvas', 'Open Source'],
+    //     media: {
+    //         type: 'video'
+    //     },
+    //     ffmpeg: {
+    //         input: 'mp4',
+    //     }
+    // },
+    // {
+    //     id: 'victorarwas',
+    //     title: 'Performance monitor extension for Chrome',
+    //     date: 'Sep 2021',
+    //     url: 'https://lvivsoft.com',
+    //     tags: ['Chrome extension', 'HTML5 Canvas', 'Open Source'],
+    //     media: {
+    //         type: 'video'
+    //     },
+    //     ffmpeg: {
+    //         input: 'mp4',
+    //     }
+    // }
 ] satisfies Project[];
