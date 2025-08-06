@@ -6,7 +6,7 @@ export default [
         title: 'Static-site generator for Vue 3',
         date: 'July 2025',
         url: 'https://github.com/dmtkpv/ssg',
-        tags: ['Vue', 'Vite', 'Open Source', 'TypeScript', 'JSDOM', 'SSG', 'Monorepo', 'Node.js'],
+        tags: ['Vue', 'Vite', 'Open Source', 'TypeScript', 'SSG', 'Monorepo', 'Node.js'],
         media: {
             type: 'image',
         },
@@ -61,7 +61,7 @@ export default [
         title: 'Portfolio website for Oded Webman',
         date: 'Oct 2023',
         url: 'https://www.odedwebman.com',
-        tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS', 'Node.js', 'Docker'],
+        tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS'],
         media: {
             type: 'video',
             background: '#42220a'
@@ -90,7 +90,7 @@ export default [
         title: 'Portfolio website for Jurgeno Starhild',
         date: 'Aug 2023',
         url: 'https://jurgenostarhild.eu/',
-        tags: ['Vite', 'Vue', 'SSR', 'Directus', 'MySQL', 'JSDOM'],
+        tags: ['Vite', 'Vue', 'SSR', 'Directus', 'MySQL'],
         media: {
             type: 'video'
         },
@@ -104,7 +104,7 @@ export default [
         title: 'Server-side renderer for Vue 3',
         date: 'July 2023',
         url: 'https://github.com/dmtkpv/vite-vue-ssr',
-        tags: ['Vite', 'Vue', 'SSR', 'Open Source', 'Monorepo', 'Node.js', 'Express.js', 'JSDOM'],
+        tags: ['Vite', 'Vue', 'SSR', 'Open Source', 'Monorepo', 'Node.js', 'ExpressJS'],
         media: {
             type: 'image'
         },
@@ -117,7 +117,7 @@ export default [
         title: 'Learning managment system for Abwaab',
         date: 'Feb 2022 - June 2023',
         url: 'https://abwaab.com/',
-        tags: ['Vue', 'Directus', 'PostgreSQL', 'Docker', 'MathJax', 'Node.js', 'Rollup'],
+        tags: ['Vue', 'Directus', 'PostgreSQL', 'Docker', 'MathJax', 'Node.js', 'Knex'],
         media: {
             type: 'video',
             background: '#d1d5db'

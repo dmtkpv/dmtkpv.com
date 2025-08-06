@@ -19,47 +19,49 @@ Jan -
 
 
 
-| Date                                                                   | Project                    | Repo | Upwork                                                  |
-|------------------------------------------------------------------------|----------------------------|------|---------------------------------------------------------|
-| July 2025                                                              | SSG                        |      |                                                         |
-| June 2025                                                              | Meditations                |      | https://www.upwork.com/nx/wm/workroom/41019738/overview |
-| May 2025                                                               | Rechtsinformers Logo       |      | https://www.upwork.com/nx/wm/workroom/40978070/overview |
-| Nov 2023 - Apr 2025                                                    | Stage App                  |      |                                                         |
-| Sep 2023                                                               | Webman                     |      |                                                         |
-| Aug 2023                                                               | Webman grid editor         |      |                                                         |
-| Feb 2023                                                               | Jurgen                     |      |                                                         |
-| Sep 2022                                                               | Asset trade (Directus ext) |      |                                                         |
-| Aug 2022                                                               | 2D Poisson disk sampling   |      |                                                         |
-| Feb 2022 - July 2023                                                   | Abwaab                     |      | https://www.upwork.com/nx/wm/workroom/30317942/overview |
-| June 2021 - July 2021, Nov 2021                                        | LvivSoft                   |      |                                                         |
-| Aug 2021                                                               | TabStats                   |      |                                                         |
-| Feb 2021 - June 2021                                                   | Victor Arwas               |      |                                                         |
-| Mar 2021                                                               | World of Lightsail         |      | https://www.upwork.com/nx/wm/workroom/26479751/overview |
-| Aug 2020 - Nov 2020                                                    | Avenues                    |      |                                                         |
-| Sep 2020 - Nov 2020                                                    | Open rooms Map             |      | https://www.upwork.com/nx/wm/workroom/21727293/overview |
-| May 2020 - June 2020                                                   | Agrivent                   |      |                                                         |
-| Mar 2019 - Apr 2020                                                    | Open rooms OCR             |      | https://www.upwork.com/nx/wm/workroom/21697726/overview |
-| Oct 2019 - Dec 2019                                                    | holidaysnipe               |      |                                                         |
-| Nov 2019                                                               | Grave (Nebesa)             |      |                                                         |
-| Sep 2019                                                               | surveys                    |      |                                                         |
-| Jule 2019 - Aug 2019                                                   | barcode-editor             |      |                                                         |
-| Feb 2019 - Apr 2019, Jun 2019                                          | altaviasumis               |      |                                                         |
-| Oct 2018 - Feb 2019                                                    | upgames                    |      | https://www.upwork.com/nx/wm/workroom/20990946/overview |
-| Nov 2016                                                               | mediascheppers             |      | https://www.upwork.com/nx/wm/workroom/17158889/overview |
-| Jule 2016                                                              | raymondwouters             |      | https://www.upwork.com/nx/wm/workroom/16697545/overview |
-| May 2017 - Jan 2018                                                    | printfellow                |      | https://www.upwork.com/nx/wm/workroom/18108596/overview |
-| Nov 2016 - Feb 2017                                                    | SVG Icons                  |      | https://www.upwork.com/nx/wm/workroom/17270559/overview |
-| Feb 2016                                                               | Overland Logo              |      | https://www.upwork.com/nx/wm/workroom/15990256/overview |
-| Sep 2016                                                               | vpn movie                  |      | https://www.upwork.com/nx/wm/workroom/16812799/overview |
-| Jul 2016                                                               | map-signals                |      | https://www.upwork.com/nx/wm/workroom/16619781/overview |
-| Oct 2016                                                               | Ligare                     |      | https://www.upwork.com/nx/wm/workroom/17094278/overview |
-| May 2020                                                               | vialai-web                 |      | https://www.upwork.com/nx/wm/workroom/24218440/overview |
-| Feb 2023                                                               | vite-vue-ssr               |      |                                                         |
-| Apr 2023                                                               | wgl                        |      |                                                         |
-| Jule 2020                                                              | editorjs plugins           |      |                                                         |
+| Date                               | Project                    | Repo | Upwork                                                  |
+|------------------------------------|----------------------------|------|---------------------------------------------------------|
+| July 2025                          | SSG                        |      |                                                         |
+| June 2025                          | Meditations                |      | https://www.upwork.com/nx/wm/workroom/41019738/overview |
+| May 2025                           | Rechtsinformers Logo       |      | https://www.upwork.com/nx/wm/workroom/40978070/overview |
+| Nov 2023 - Apr 2025                | Stage App                  |      |                                                         |
+| Sep 2023                           | Webman                     |      |                                                         |
+| Aug 2023                           | Webman grid editor         |      |                                                         |
+| Apr 2023                           | wgl                        |      |                                                         |
+| Feb 2023                           | vite-vue-ssr               |      |                                                         |
+| Feb 2023                           | Jurgen                     |      |                                                         |
+| Sep 2022                           | Asset trade (Directus ext) |      |                                                         |
+| Aug 2022                           | 2D Poisson disk sampling   |      |                                                         |
+| July 2020                          | editorjs plugins           |      |                                                         |
+| Feb 2022 - July 2023               | Abwaab                     |      | https://www.upwork.com/nx/wm/workroom/30317942/overview |
+| June 2021 - July 2021, Nov 2021    | LvivSoft                   |      |                                                         |
+| Aug 2021                           | TabStats                   |      |                                                         |
+| Feb 2021 - June 2021               | Victor Arwas               |      |                                                         |
+| Mar 2021                           | World of Lightsail         |      | https://www.upwork.com/nx/wm/workroom/26479751/overview |
+| Aug 2020 - Nov 2020                | Avenues                    |      |                                                         |
+| Sep 2020 - Nov 2020                | Open rooms Map             |      | https://www.upwork.com/nx/wm/workroom/21727293/overview |
+| May 2020 - June 2020               | Agrivent                   |      |                                                         |
+| Mar 2019 - Apr 2020                | Open rooms OCR             |      | https://www.upwork.com/nx/wm/workroom/21697726/overview |
+| Oct 2019 - Dec 2019                | holidaysnipe               |      |                                                         |
+| Nov 2019                           | Grave (Nebesa)             |      |                                                         |
+| Sep 2019                           | surveys                    |      |                                                         |
+| Jule 2019 - Aug 2019               | barcode-editor             |      |                                                         |
+| Feb 2019 - Apr 2019, Jun 2019      | altaviasumis               |      |                                                         |
+| Mar 2019                           | конопля                    |      | https://www.upwork.com/nx/wm/workroom/21785439/overview |
+| Feb 2019                           | holier (Blank&Co)          |      | https://www.upwork.com/nx/wm/workroom/21581187/overview |
+| Oct 2018 - Feb 2019                | upgames                    |      | https://www.upwork.com/nx/wm/workroom/20990946/overview |
+| Nov 2016                           | mediascheppers             |      | https://www.upwork.com/nx/wm/workroom/17158889/overview |
+| Jule 2016                          | raymondwouters             |      | https://www.upwork.com/nx/wm/workroom/16697545/overview |
+| May 2017 - Jan 2018                | printfellow                |      | https://www.upwork.com/nx/wm/workroom/18108596/overview |
+| Nov 2016 - Feb 2017                | SVG Icons                  |      | https://www.upwork.com/nx/wm/workroom/17270559/overview |
+| Feb 2016                           | Overland Logo              |      | https://www.upwork.com/nx/wm/workroom/15990256/overview |
+| Sep 2016                           | vpn movie                  |      | https://www.upwork.com/nx/wm/workroom/16812799/overview |
+| Jul 2016                           | map-signals                |      | https://www.upwork.com/nx/wm/workroom/16619781/overview |
+| Oct 2016                           | Ligare                     |      | https://www.upwork.com/nx/wm/workroom/17094278/overview |
+| May 2020                           | vialai-web                 |      | https://www.upwork.com/nx/wm/workroom/24218440/overview |
+
+
 | ---                                                                    | ---                        |      |                                                         |
-| Mar 2019                                                               | конопля                    |      | https://www.upwork.com/nx/wm/workroom/21785439/overview |
-| Feb 2019                                                               | holier (Blank&Co)          |      | https://www.upwork.com/nx/wm/workroom/21581187/overview |
 | Feb 2017 - May 2017                                                    | Amit: PubNub Chat          |      | https://www.upwork.com/nx/wm/workroom/17694384/overview |
 | -                                                                      | Amit: PubNub Chat 2        |      | https://www.upwork.com/nx/wm/workroom/16389599/overview |
 | -                                                                      | Amit: PubNub Chat 3        |      | https://www.upwork.com/nx/wm/workroom/16109397/overview |
