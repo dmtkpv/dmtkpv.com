@@ -170,17 +170,18 @@ export default [
             chromeFix: true
         }
     },
-    // {
-    //     id: 'victorarwas',
-    //     title: 'Performance monitor extension for Chrome',
-    //     date: 'Sep 2021',
-    //     url: 'https://lvivsoft.com',
-    //     tags: ['Chrome extension', 'HTML5 Canvas', 'Open Source'],
-    //     media: {
-    //         type: 'video'
-    //     },
-    //     ffmpeg: {
-    //         input: 'mp4',
-    //     }
-    // }
+    {
+        id: 'victorarwas',
+        title: 'Website for Victor Arwas gallery',
+        date: 'Mar 2021 - May 2021',
+        url: 'https://lvivsoft.com',
+        tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mov',
+            chromeFix: true
+        }
+    }
 ] satisfies Project[];

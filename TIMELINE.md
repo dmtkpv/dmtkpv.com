@@ -16,7 +16,42 @@ Mar - Victor Arwas
 Feb - World of Lightsail
 Jan -
 
+2020
+Dec - Open rooms Map
+Nov - Open rooms Map
+Oct - Open rooms Map
+Sep - Avenues
+Aug - Avenues
+July - Agrivent
+June - Agrivent
+May - vialai-web
+Apr - Open rooms OCR
+Mar - Open rooms OCR
+Feb - Open rooms OCR
 
+2019
+Dec - holidaysnipe | Open rooms OCR
+Nov - holidaysnipe | Open rooms OCR | Nebesa
+Oct - holidaysnipe | Open rooms OCR
+Sep - Open rooms OCR | surveys
+Aug - Open rooms OCR | Barcode
+July - Open rooms OCR | Barcode
+June - Open rooms OCR
+May - Open rooms OCR
+Apr - Open rooms OCR | altaviasumis
+Mar - Open rooms OCR | altaviasumis | конопля
+Feb - altaviasumis | holier | upgames
+
+
+| Mar 2019 - Apr 2020                | Open rooms OCR             |      | https://www.upwork.com/nx/wm/workroom/21697726/overview |
+| Oct 2019 - Dec 2019                | holidaysnipe               |      |                                                         |
+| Nov 2019                           | Grave (Nebesa)             |      |                                                         |
+| Sep 2019                           | surveys                    |      |                                                         |
+| Jule 2019 - Aug 2019               | barcode-editor             |      |                                                         |
+| Feb 2019 - Apr 2019, Jun 2019      | altaviasumis               |      |                                                         |
+| Mar 2019                           | конопля                    |      | https://www.upwork.com/nx/wm/workroom/21785439/overview |
+| Feb 2019                           | holier (Blank&Co)          |      | https://www.upwork.com/nx/wm/workroom/21581187/overview |
+| Oct 2018 - Feb 2019                | upgames                    |      | https://www.upwork.com/nx/wm/workroom/20990946/overview |
 
 
 | Date                               | Project                    | Repo | Upwork                                                  |
@@ -32,12 +67,13 @@ Jan -
 | Feb 2023                           | Jurgen                     |      |                                                         |
 | Sep 2022                           | Asset trade (Directus ext) |      |                                                         |
 | Aug 2022                           | 2D Poisson disk sampling   |      |                                                         |
-| July 2020                          | editorjs plugins           |      |                                                         |
 | Feb 2022 - July 2023               | Abwaab                     |      | https://www.upwork.com/nx/wm/workroom/30317942/overview |
 | June 2021 - July 2021, Nov 2021    | LvivSoft                   |      |                                                         |
 | Aug 2021                           | TabStats                   |      |                                                         |
 | Feb 2021 - June 2021               | Victor Arwas               |      |                                                         |
 | Mar 2021                           | World of Lightsail         |      | https://www.upwork.com/nx/wm/workroom/26479751/overview |
+| July 2020                          | editorjs plugins           |      |                                                         |
+| May 2020                           | vialai-web                 |      | https://www.upwork.com/nx/wm/workroom/24218440/overview |
 | Aug 2020 - Nov 2020                | Avenues                    |      |                                                         |
 | Sep 2020 - Nov 2020                | Open rooms Map             |      | https://www.upwork.com/nx/wm/workroom/21727293/overview |
 | May 2020 - June 2020               | Agrivent                   |      |                                                         |
@@ -58,7 +94,7 @@ Jan -
 | Sep 2016                           | vpn movie                  |      | https://www.upwork.com/nx/wm/workroom/16812799/overview |
 | Jul 2016                           | map-signals                |      | https://www.upwork.com/nx/wm/workroom/16619781/overview |
 | Oct 2016                           | Ligare                     |      | https://www.upwork.com/nx/wm/workroom/17094278/overview |
-| May 2020                           | vialai-web                 |      | https://www.upwork.com/nx/wm/workroom/24218440/overview |
+
 
 
 | ---                                                                    | ---                        |      |                                                         |
