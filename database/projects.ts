@@ -183,5 +183,21 @@ export default [
             input: 'mov',
             chromeFix: true
         }
+    },
+    {
+        id: 'lightsail',
+        title: 'Feature map for LightSail',
+        date: 'Feb 2021',
+        url: 'https://lightsailed.com/reading-at-home/es/feature-list-3d/',
+        tags: ['Webpack', 'GSAP', 'Animation'],
+        media: {
+            type: 'video',
+            background: '#000',
+            full: true
+        },
+        ffmpeg: {
+            input: 'mov',
+            chromeFix: true
+        }
     }
 ] satisfies Project[];
