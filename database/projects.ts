@@ -50,6 +50,7 @@ export default [
         tags: ['PostgreSQL', 'ExpressJS', 'Directus', 'Stripe', 'Monorepo', 'Google Maps', 'Google Cloud Storage', 'Knex', 'Socket.io', 'Charts.js', 'Vue', 'Vite', 'SSR', 'SCSS', 'JWT', 'Node.js'],
         media: {
             type: 'video',
+            background: '#e2e8f0'
         },
         ffmpeg: {
             input: 'mov',
@@ -154,19 +155,21 @@ export default [
             input: 'mov',
         }
     },
-    // {
-    //     id: 'lvivsoft',
-    //     title: 'Performance monitor extension for Chrome',
-    //     date: 'Sep 2021',
-    //     url: 'https://lvivsoft.com',
-    //     tags: ['Chrome extension', 'HTML5 Canvas', 'Open Source'],
-    //     media: {
-    //         type: 'video'
-    //     },
-    //     ffmpeg: {
-    //         input: 'mp4',
-    //     }
-    // },
+    {
+        id: 'lvivsoft',
+        title: 'Corporate website for LvivSoft',
+        date: 'June 2021 - Aug 2021',
+        url: 'https://lvivsoft.com',
+        tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus'],
+        media: {
+            type: 'video',
+            background: '#e7e5e4'
+        },
+        ffmpeg: {
+            input: 'mov',
+            chromeFix: true
+        }
+    },
     // {
     //     id: 'victorarwas',
     //     title: 'Performance monitor extension for Chrome',
