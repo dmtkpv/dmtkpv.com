@@ -8,10 +8,7 @@
 
     .ui-media { @apply
         relative
-        aspect-square
-        bg-slate-100;
-
-
+        aspect-square;
 
         &_container { @apply
             relative
@@ -49,7 +46,7 @@
 -->
 
 <template>
-    <div ref="el" class="ui-media" :class="{ 'p-6': !full }" :style="{ background }">
+    <div ref="el" class="ui-media" :class="{ 'p-6': !full }" v-bind="background">
         <div class="ui-media_container">
             <img ref="img" :src="`/media/${id}.jpg`">
             <ui-video v-if="type === 'video' && visible" :id="id" />
@@ -65,10 +62,10 @@
 
 <script setup lang="ts">
 
-    import { ref, watch, useTemplateRef, onMounted, onUnmounted, nextTick } from 'vue';
+    import { ref, watch, computed, useTemplateRef, onMounted, onUnmounted, nextTick } from 'vue';
     import { useState } from '~/plugins/state'
 
-    defineProps<{
+    const props = defineProps<{
         id: string,
         type: 'video' | 'image',
         full?: Boolean,
@@ -78,6 +75,12 @@
     const el = useTemplateRef('el');
     const state = useState();
     const visible = ref(false);
+
+    const background = computed(() => {
+      const { background = 'bg-slate-100' } = props;
+      if (background.startsWith('#')) return { style: { background } };
+      return { class: background };
+    })
 
     function onScroll () {
         if (!el.value) return;

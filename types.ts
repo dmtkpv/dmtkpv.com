@@ -20,7 +20,7 @@ export type Project = {
     media: {
         type: 'video' | 'image',
         full?: boolean,
-        background?: `#${string}`
+        background?: string
     },
     ffmpeg: {
         input: 'png' | 'mov' | 'mp4',

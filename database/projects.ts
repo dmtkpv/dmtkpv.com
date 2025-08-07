@@ -8,7 +8,7 @@ export default [
         url: 'https://github.com/dmtkpv/ssg',
         tags: ['Vue', 'Vite', 'Open Source', 'TypeScript', 'SSG', 'Monorepo', 'Node.js'],
         media: {
-            type: 'image',
+            type: 'image'
         },
         ffmpeg: {
             input: 'png'
@@ -49,8 +49,7 @@ export default [
         url: 'https://stage-app.nl/',
         tags: ['PostgreSQL', 'ExpressJS', 'Directus', 'Stripe', 'Monorepo', 'Google Maps', 'Google Cloud Storage', 'Knex', 'Socket.io', 'Charts.js', 'Vue', 'Vite', 'SSR', 'SCSS', 'JWT', 'Node.js'],
         media: {
-            type: 'video',
-            background: '#e2e8f0'
+            type: 'video'
         },
         ffmpeg: {
             input: 'mov',
@@ -79,7 +78,7 @@ export default [
         tags: ['Rollup', 'Vue', 'Directus'],
         media: {
             type: 'video',
-            background: '#d1d5db'
+            background: 'bg-gray-300'
         },
         ffmpeg: {
             input: 'mov',
@@ -121,7 +120,7 @@ export default [
         tags: ['Vue', 'Directus', 'PostgreSQL', 'Docker', 'MathJax', 'Node.js', 'Knex'],
         media: {
             type: 'video',
-            background: '#d1d5db'
+            background: 'bg-gray-300'
         },
         ffmpeg: {
             input: 'mov',
@@ -158,12 +157,12 @@ export default [
     {
         id: 'lvivsoft',
         title: 'Corporate website for LvivSoft',
-        date: 'June 2021 - Aug 2021',
+        date: 'Aug 2021',
         url: 'https://lvivsoft.com',
         tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus'],
         media: {
             type: 'video',
-            background: '#e7e5e4'
+            background: 'bg-gray-200'
         },
         ffmpeg: {
             input: 'mov',
@@ -173,11 +172,12 @@ export default [
     {
         id: 'victorarwas',
         title: 'Website for Victor Arwas gallery',
-        date: 'Mar 2021 - May 2021',
-        url: 'https://lvivsoft.com',
+        date: 'May 2021',
+        url: 'https://victorarwasart.com',
         tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus'],
         media: {
-            type: 'video'
+            type: 'video',
+            background: '#fcf1e9'
         },
         ffmpeg: {
             input: 'mov',
