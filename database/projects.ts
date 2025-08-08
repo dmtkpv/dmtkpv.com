@@ -233,6 +233,7 @@ export default [
         title: 'Property diagram manager for Open Room Inc.',
         date: 'Apr 2020',
         tags: ['Webpack', 'Vue', 'Vuex', 'HTML5 Canvas'],
+        url: 'https://forestapp.openrm.jp/',
         media: {
             type: 'video',
             background: '#4D9B48'
@@ -246,7 +247,60 @@ export default [
         id: 'holidaysnipe',
         title: 'HolidaySnipe - Travel booking platform',
         date: 'Apr 2020',
+        url: 'https://www.holidaysnipe.com/',
         tags: ['Webpack', 'Vue', 'Vuex'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mov',
+        }
+    },
+    {
+        id: 'grave',
+        title: 'Funeral services website',
+        date: 'Nov 2019',
+        url: 'http://xn--80abhuhjendq4a.com.ua/',
+        tags: ['Webpack', 'WebGL', 'Netlify', 'SSG', 'UI/UX Design'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mov',
+            y: 2
+        }
+    },
+    {
+        id: 'surveys',
+        title: 'Survey application',
+        date: 'Sep 2019',
+        tags: ['Webpack', 'Apache Cordova', 'Mobile App', 'UI/UX Design', 'GSAP'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mp4',
+        }
+    },
+    {
+        id: 'barcode',
+        title: 'Sticker creation tool',
+        date: 'Aug 2019',
+        url: 'https://barcode-editor-ks.netlify.app/',
+        tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design', 'Fabric.js', 'HTML5 Canvas'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mp4',
+        }
+    },
+    {
+        id: 'altaviasumis',
+        title: 'Order management system for Altavia Sumis',
+        date: 'Apr 2019',
+        url: 'https://altavia-unite.nl/',
+        tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design'],
         media: {
             type: 'video'
         },
