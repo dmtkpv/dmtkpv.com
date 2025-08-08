@@ -241,6 +241,18 @@ export default [
             input: 'mov',
             y: 2
         }
+    },
+    {
+        id: 'holidaysnipe',
+        title: 'HolidaySnipe - Travel booking platform',
+        date: 'Apr 2020',
+        tags: ['Webpack', 'Vue', 'Vuex'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mov',
+        }
     }
 
 
