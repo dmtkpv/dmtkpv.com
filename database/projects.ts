@@ -171,7 +171,7 @@ export default [
     },
     {
         id: 'victorarwas',
-        title: 'Website for Victor Arwas gallery',
+        title: 'Gallery website for Victor Arwas',
         date: 'May 2021',
         url: 'https://victorarwasart.com',
         tags: ['Webpack', 'SCSS', 'Vue', 'Vuex', 'SSR', 'MySQL', 'Directus'],
@@ -203,7 +203,7 @@ export default [
     {
         id: 'openroom-map',
         title: 'Property explorer for Open Room Inc.',
-        date: 'Apr 2021',
+        date: 'Dec 2020',
         tags: ['Webpack', 'Vue', 'Vuex', 'Google Maps', 'Charts.js'],
         media: {
             type: 'video',
@@ -215,18 +215,32 @@ export default [
         }
     },
     {
-        id: 'openroom-ocr',
-        title: 'Property diagram manager for Open Room Inc.',
-        date: 'Apr 2021',
-        tags: ['Webpack', 'Vue', 'Vuex', 'HTML5 Canvas'],
+        id: 'avenues',
+        title: 'Portfolio website for Avenues Studio',
+        date: 'Sep 2020',
+        url: 'https://avenues.studio',
+        tags: ['Webpack', 'Vue', 'Vuex', 'Directus', 'MySQL', 'FFmpeg'],
         media: {
-            type: 'video'
+            type: 'video',
+            background: 'bg-gray-200'
         },
         ffmpeg: {
-            input: 'mov',
-            y: 2
+            input: 'mov'
         }
-    }
+    },
+    // {
+    //     id: 'openroom-ocr',
+    //     title: 'Property diagram manager for Open Room Inc.',
+    //     date: 'Apr 2021',
+    //     tags: ['Webpack', 'Vue', 'Vuex', 'HTML5 Canvas'],
+    //     media: {
+    //         type: 'video'
+    //     },
+    //     ffmpeg: {
+    //         input: 'mov',
+    //         y: 2
+    //     }
+    // }
 
 
 ] satisfies Project[];
