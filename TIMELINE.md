@@ -1,26 +1,8 @@
-2020
-Dec - Open rooms Map
-Nov - Open rooms Map
-Oct - Open rooms Map
-Sep - Avenues
-Aug - Avenues
-July - Agrivent
-June - Agrivent
-May - vialai-web
-Apr - Open rooms OCR
-Mar - Open rooms OCR
-Feb - Open rooms OCR
-
 2019
-Dec - holidaysnipe | Open rooms OCR
-Nov - holidaysnipe | Open rooms OCR | Nebesa
-Oct - holidaysnipe | Open rooms OCR
-Sep - Open rooms OCR | surveys
-Aug - Open rooms OCR | Barcode
-July - Open rooms OCR | Barcode
-June - Open rooms OCR
-May - Open rooms OCR
-Apr - Open rooms OCR | altaviasumis
+Dec - holidaysnipe
+Sep - surveys
+Aug - Barcode
+Apr - altaviasumis
 Mar - Open rooms OCR | altaviasumis | конопля
 Feb - altaviasumis | holier | upgames
 

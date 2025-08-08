@@ -228,19 +228,20 @@ export default [
             input: 'mov'
         }
     },
-    // {
-    //     id: 'openroom-ocr',
-    //     title: 'Property diagram manager for Open Room Inc.',
-    //     date: 'Apr 2021',
-    //     tags: ['Webpack', 'Vue', 'Vuex', 'HTML5 Canvas'],
-    //     media: {
-    //         type: 'video'
-    //     },
-    //     ffmpeg: {
-    //         input: 'mov',
-    //         y: 2
-    //     }
-    // }
+    {
+        id: 'openroom-ocr',
+        title: 'Property diagram manager for Open Room Inc.',
+        date: 'Apr 2020',
+        tags: ['Webpack', 'Vue', 'Vuex', 'HTML5 Canvas'],
+        media: {
+            type: 'video',
+            background: '#4D9B48'
+        },
+        ffmpeg: {
+            input: 'mov',
+            y: 2
+        }
+    }
 
 
 ] satisfies Project[];
