@@ -33,9 +33,9 @@ if (id) {
 function convert (project: Project, format: string, options: string[]) {
     return new Promise((resolve, reject) => {
 
-        const { id, ffmpeg: { input, chromeFix }} = project;
+        const { id, ffmpeg: { input, y }} = project;
         const scale = 'scale=1024:1024:force_original_aspect_ratio=decrease:force_divisible_by=2'
-        const crop = chromeFix ? 'crop=in_w:in_h-2:0:2,' : ''
+        const crop = y ? `crop=in_w:in_h-${y}:0:${y},` : ''
 
         ffmpeg(`${src}/${id}.${input}`)
             .outputOptions(`-vf ${crop}${scale}`)

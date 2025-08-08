@@ -1,21 +1,3 @@
-2022
-Feb - abwwab
-Jan - 2D Poisson disk sampling
-
-2021
-Dec -
-Nov -
-Oct -
-Sep - TabStats
-Aug - LvivSoft
-July - LvivSoft
-June - LvivSoft
-May - Victor Arwas
-Apr - Victor Arwas
-Mar - Victor Arwas
-Feb - World of Lightsail
-Jan -
-
 2020
 Dec - Open rooms Map
 Nov - Open rooms Map
@@ -129,5 +111,8 @@ Feb - altaviasumis | holier | upgames
 | 2011                                                                   | Rochen                  |
 | ??                                                                   | Nebesa (Find the demo of clouds)                  |
 | ??                                                                   | xit.net.ua                  |
+
+
+ffmpeg -f concat -safe 0 -i file_list.txt -c copy output.mp4
 
 

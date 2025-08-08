@@ -53,7 +53,7 @@ export default [
         },
         ffmpeg: {
             input: 'mov',
-            chromeFix: true
+            y: 2
         }
     },
     {
@@ -68,7 +68,7 @@ export default [
         },
         ffmpeg: {
             input: 'mov',
-            chromeFix: true
+            y: 2
         }
     },
     {
@@ -82,7 +82,7 @@ export default [
         },
         ffmpeg: {
             input: 'mov',
-            chromeFix: true
+            y: 2
         }
     },
     {
@@ -96,7 +96,7 @@ export default [
         },
         ffmpeg: {
             input: 'mov',
-            chromeFix: true
+            y: 2
         }
     },
     {
@@ -124,7 +124,7 @@ export default [
         },
         ffmpeg: {
             input: 'mov',
-            chromeFix: true
+            y: 2
         }
     },
     // {
@@ -166,7 +166,7 @@ export default [
         },
         ffmpeg: {
             input: 'mov',
-            chromeFix: true
+            y: 2
         }
     },
     {
@@ -174,14 +174,14 @@ export default [
         title: 'Website for Victor Arwas gallery',
         date: 'May 2021',
         url: 'https://victorarwasart.com',
-        tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus'],
+        tags: ['Webpack', 'SCSS', 'Vue', 'Vuex', 'SSR', 'MySQL', 'Directus'],
         media: {
             type: 'video',
             background: '#fcf1e9'
         },
         ffmpeg: {
             input: 'mov',
-            chromeFix: true
+            y: 2
         }
     },
     {
@@ -197,7 +197,36 @@ export default [
         },
         ffmpeg: {
             input: 'mov',
-            chromeFix: true
+            y: 2
+        }
+    },
+    {
+        id: 'openroom-map',
+        title: 'Property explorer for Open Room Inc.',
+        date: 'Apr 2021',
+        tags: ['Webpack', 'Vue', 'Vuex', 'Google Maps', 'Charts.js'],
+        media: {
+            type: 'video',
+            background: 'bg-blue-50'
+        },
+        ffmpeg: {
+            input: 'mov',
+            y: 148
+        }
+    },
+    {
+        id: 'openroom-ocr',
+        title: 'Property diagram manager for Open Room Inc.',
+        date: 'Apr 2021',
+        tags: ['Webpack', 'Vue', 'Vuex', 'HTML5 Canvas'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mov',
+            y: 2
         }
     }
+
+
 ] satisfies Project[];

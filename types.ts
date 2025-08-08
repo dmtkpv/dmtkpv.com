@@ -24,6 +24,6 @@ export type Project = {
     },
     ffmpeg: {
         input: 'png' | 'mov' | 'mp4',
-        chromeFix?: boolean
+        y?: number
     }
 }
