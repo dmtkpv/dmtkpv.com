@@ -322,6 +322,49 @@ export default [
     //     }
     // }
     {
+        id: 'christmasfrenzy',
+        title: 'Match-3 game with a Christmas theme',
+        date: '2012 • WhiteLord Solutions LLP',
+        url: 'https://christmas-frenzy.netlify.app/',
+        tags: ['Apache Cordova', 'Mobile App', 'Game', 'jQuery'],
+        media: {
+            type: 'video',
+            background: '#C33C26'
+        },
+        ffmpeg: {
+            input: 'mov',
+        }
+    },
+    {
+        id: 'hot-numbers',
+        title: 'Number guessing reveal game',
+        date: '2012 • WhiteLord Solutions LLP',
+        url: 'https://4pda.to/forum/index.php?showtopic=393724',
+        tags: ['Apache Cordova', 'Mobile App', 'Game', 'jQuery', 'UI/UX Design'],
+        media: {
+            type: 'video',
+            full: true
+            // background: 'bg-pink-500'
+        },
+        ffmpeg: {
+            input: 'mov',
+        }
+    },
+    // {
+    //     id: 'shooter',
+    //     title: 'Click-to-hit shooter',
+    //     date: '2012 • WhiteLord Solutions LLP',
+    //     url: 'https://dmtkpv-portfolio.github.io/shooter/',
+    //     tags: ['Game'],
+    //     media: {
+    //         type: 'video',
+    //     },
+    //     ffmpeg: {
+    //         input: 'mov',
+    //     }
+    // },
+
+    {
         id: 'bender',
         title: 'Bender (Futurama) animation',
         date: '2011 • jsdo.it',
@@ -344,7 +387,7 @@ export default [
         tags: ['Animation'],
         media: {
             type: 'video',
-            // background: '#000',
+            background: 'bg-white',
             full: true
         },
         ffmpeg: {
