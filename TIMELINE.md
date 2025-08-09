@@ -1,17 +1,21 @@
-Mar 2019 - конопля
+
 Feb 2019 - holier
 Jan 2019 - upgames
-
-
-May 2017 - Jan 2018 - printfellow
+Jan 2018 - printfellow
 Feb 2017 - SVG Icons
 Nov 2016 - mediascheppers
 Jule 2016 - raymondwouters
 Feb 2016 - Overland Logo
 Sep 2016 - vpn movie
-Jul 2016 - map-signals
 Oct 2016 - Ligare
 June 2016 - Nutrition
+| Nay 2014                                                               | textition               |
+| Mar 2014                                                               | Pumb 2014               |
+| Mar 2013                                                               | Pumb 2013               |
+| Mar 2013 - Oct 2015                                                    | My Kyivstar             |
+| 2012                                                                   | christmas-frenzy        |
+| 2012                                                                   | Shooter                 |
+| 2011                                                                   | Bender                  |
 
 
 
@@ -95,6 +99,5 @@ June 2016 - Nutrition
 | ??                                                                   | xit.net.ua                  |
 
 
-ffmpeg -f concat -safe 0 -i file_list.txt -c copy output.mp4
 
 

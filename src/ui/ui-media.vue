@@ -8,7 +8,8 @@
 
     .ui-media { @apply
         relative
-        aspect-square;
+        aspect-square
+        overflow-hidden;
 
         &_container { @apply
             relative
@@ -78,8 +79,8 @@
 
     const background = computed(() => {
       const { background = 'bg-slate-100' } = props;
-      if (background.startsWith('#')) return { style: { background } };
-      return { class: background };
+      if (background.startsWith('bg-')) return { class: background };
+      return { style: { background } };
     })
 
     function onScroll () {

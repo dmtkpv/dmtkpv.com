@@ -296,13 +296,56 @@ export default [
         }
     },
     {
-        id: 'altaviasumis',
-        title: 'Order management system for Altavia Sumis',
-        date: 'Apr 2019',
-        url: 'https://altavia-unite.nl/',
+        id: 'marijuana',
+        title: 'Infographic landing page',
+        date: 'Mar 2019',
+        url: 'https://www.nylawnet.com/recreational-marijuana-legalization-implications/',
         tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design'],
         media: {
             type: 'video'
+        },
+        ffmpeg: {
+            input: 'mov',
+        }
+    },
+    // {
+    //     id: 'holier',
+    //     title: 'Infographic landing page',
+    //     date: 'Mar 2019',
+    //     url: 'https://www.nylawnet.com/recreational-marijuana-legalization-implications/',
+    //     tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design'],
+    //     media: {
+    //         type: 'video'
+    //     },
+    //     ffmpeg: {
+    //         input: 'mov',
+    //     }
+    // }
+    {
+        id: 'bender',
+        title: 'Bender (Futurama) animation',
+        date: '2011 • jsdo.it',
+        url: 'https://labs-ks.netlify.app/bender.html',
+        tags: ['Animation'],
+        media: {
+            type: 'video',
+            background: 'linear-gradient(to left, #547489, #85A0B1, #547489)',
+            full: true
+        },
+        ffmpeg: {
+            input: 'mov',
+        }
+    },
+    {
+        id: 'ft',
+        title: 'Futuristic animation',
+        date: '2011 • jsdo.it',
+        url: 'https://labs-ks.netlify.app/ft.html',
+        tags: ['Animation'],
+        media: {
+            type: 'video',
+            // background: '#000',
+            full: true
         },
         ffmpeg: {
             input: 'mov',
