@@ -295,19 +295,19 @@ export default [
             input: 'mp4',
         }
     },
-    {
-        id: 'marijuana',
-        title: 'Infographic landing page',
-        date: 'Mar 2019',
-        url: 'https://www.nylawnet.com/recreational-marijuana-legalization-implications/',
-        tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design'],
-        media: {
-            type: 'video'
-        },
-        ffmpeg: {
-            input: 'mov',
-        }
-    },
+    // {
+    //     id: 'marijuana',
+    //     title: 'Infographic landing page',
+    //     date: 'Mar 2019',
+    //     url: 'https://www.nylawnet.com/recreational-marijuana-legalization-implications/',
+    //     tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design'],
+    //     media: {
+    //         type: 'video'
+    //     },
+    //     ffmpeg: {
+    //         input: 'mov',
+    //     }
+    // },
     // {
     //     id: 'holier',
     //     title: 'Infographic landing page',
@@ -321,6 +321,19 @@ export default [
     //         input: 'mov',
     //     }
     // }
+    {
+        id: 'kyivstar',
+        title: 'Mobile operator application',
+        date: 'Mar 2013 - Oct 2015 • Areon Consulting',
+        url: 'https://play.google.com/store/apps/details?id=com.kyivstar.mykyivstar',
+        tags: ['Apache Cordova', 'Mobile App', 'AngularJS'],
+        media: {
+            type: 'video',
+        },
+        ffmpeg: {
+            input: 'mov',
+        }
+    },
     {
         id: 'christmasfrenzy',
         title: 'Match-3 game with a Christmas theme',
