@@ -83,8 +83,7 @@ export default [
         title: 'Directus grid interface',
         tags: ['Rollup', 'Vue', 'Directus'],
         media: {
-            type: 'video',
-            background: 'bg-gray-300'
+            type: 'video'
         },
         ffmpeg: {
             input: 'mov',
@@ -206,8 +205,7 @@ export default [
         title: 'Property explorer',
         tags: ['Webpack', 'Vue', 'Vuex', 'Google Maps', 'Charts', 'Web App', 'Frontend'],
         media: {
-            type: 'video',
-            background: 'bg-blue-50'
+            type: 'video'
         },
         ffmpeg: {
             input: 'mov',
@@ -338,7 +336,8 @@ export default [
             type: 'video'
         },
         ffmpeg: {
-            input: 'mp4',
+            input: 'mov',
+            y: 2
         }
     },
     {
