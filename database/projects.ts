@@ -4,7 +4,7 @@ import clients from './clients'
 export default [
     {
         id: 'dmtkpv-ssg',
-        date: 'July 2025',
+        date: '2025',
         title: 'Static-site generator for Vue 3',
         tags: ['Vue', 'Vite', 'Open Source', 'TypeScript', 'SSG', 'Monorepo', 'Node.js'],
         url: 'https://github.com/dmtkpv/ssg',
@@ -18,7 +18,7 @@ export default [
     {
         client: clients.gallaz,
         id: 'meditation-player',
-        date: 'June 2025',
+        date: '2025',
         title: 'Meditation player',
         tags: ['Vue', 'Vite', 'IndexedDB', 'TailwindCSS', 'HTML5 Audio', 'PWA', 'Mobile App', 'UI/UX Design', 'Vercel'],
         url: 'https://les-meditations-v2.vercel.app',
@@ -32,7 +32,7 @@ export default [
     {
         client: clients.semantic,
         id: 'rechtsinformers',
-        date: 'May 2025',
+        date: '2025',
         title: 'Animated logo',
         tags: ['HTML5 Canvas', 'GSAP', 'Rollup', 'Animation'],
         url: 'https://rechtsinformer.netlify.app/showcase.html',
@@ -48,8 +48,8 @@ export default [
     {
         client: clients.bizberg,
         id: 'stage-app',
-        date: 'Nov 2023 - Apr 2025',
-        title: 'Stage App - Internship placement platform',
+        date: '2024',
+        title: 'Internship placement platform',
         tags: ['PostgreSQL', 'ExpressJS', 'Directus', 'Stripe', 'Monorepo', 'Google Maps', 'Google Cloud Storage', 'Knex', 'Socket.io', 'Charts.js', 'Vue', 'Vite', 'SSR', 'SCSS', 'JWT', 'Node.js'],
         url: 'https://stage-app.nl/',
         media: {
@@ -63,8 +63,8 @@ export default [
     {
         client: clients.squarestudio,
         id: 'odedwebman',
-        date: 'Oct 2023',
-        title: 'Portfolio website for Oded Webman',
+        date: '2023',
+        title: 'Artist portfolio website',
         tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS'],
         url: 'https://www.odedwebman.com',
         media: {
@@ -79,7 +79,7 @@ export default [
     {
         client: clients.squarestudio,
         id: 'directus-grid',
-        date: 'Sep 2023',
+        date: '2023',
         title: 'Directus grid interface',
         tags: ['Rollup', 'Vue', 'Directus'],
         media: {
@@ -91,24 +91,10 @@ export default [
             y: 2
         }
     },
-    {
-        client: clients.squarestudio,
-        id: 'jurgenostarhild',
-        date: 'Aug 2023',
-        title: 'Portfolio website for Jurgeno Starhild',
-        tags: ['Vite', 'Vue', 'SSR', 'Directus', 'MySQL'],
-        url: 'https://jurgenostarhild.eu/',
-        media: {
-            type: 'video'
-        },
-        ffmpeg: {
-            input: 'mov',
-            y: 2
-        }
-    },
+
     {
         id: 'dmtkpv-ssr',
-        date: 'July 2023',
+        date: '2023',
         title: 'Server-side renderer for Vue 3',
         tags: ['Vite', 'Vue', 'SSR', 'Open Source', 'Monorepo', 'Node.js', 'ExpressJS'],
         url: 'https://github.com/dmtkpv/vite-vue-ssr',
@@ -122,7 +108,7 @@ export default [
     {
         client: clients.abwaab,
         id: 'abwaab',
-        date: 'Feb 2022 - June 2023',
+        date: '2022',
         title: 'Learning management system on Directus',
         tags: ['Vue', 'Directus', 'PostgreSQL', 'Docker', 'MathJax', 'Node.js', 'Knex'],
         url: 'https://abwaab.com/',
@@ -137,7 +123,7 @@ export default [
     },
     {
         id: 'tabstats',
-        date: 'Sep 2021',
+        date: '2022',
         title: 'Performance monitor extension for Chrome',
         tags: ['Chrome extension', 'HTML5 Canvas', 'Open Source'],
         url: 'https://github.com/dmtkpv/tabstats',
@@ -152,8 +138,8 @@ export default [
     {
         client: clients.squarestudio,
         id: 'lvivsoft',
-        date: 'Aug 2021',
-        title: 'Corporate website for LvivSoft',
+        date: '2021',
+        title: 'Corporate website for IT services company',
         tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus'],
         url: 'https://lvivsoft.com',
         media: {
@@ -168,8 +154,8 @@ export default [
     {
         client: clients.squarestudio,
         id: 'victorarwas',
-        date: 'May 2021',
-        title: 'Gallery website for Victor Arwas',
+        date: '2021',
+        title: 'Art gallery website',
         tags: ['Webpack', 'SCSS', 'Vue', 'Vuex', 'SSR', 'MySQL', 'Directus'],
         url: 'https://victorarwasart.com',
         media: {
@@ -184,8 +170,8 @@ export default [
     {
         client: clients.lightsail,
         id: 'lightsail',
-        date: 'Feb 2021',
-        title: 'Feature map',
+        date: '2021',
+        title: 'Interactive 3D feature map',
         tags: ['Webpack', 'GSAP', 'Animation'],
         url: 'https://lightsailed.com/reading-at-home/es/feature-list-3d/',
         media: {
@@ -199,25 +185,10 @@ export default [
         }
     },
     {
-        client: clients.openroom,
-        id: 'openroom-map',
-        date: 'Dec 2020',
-        title: 'Property explorer',
-        tags: ['Webpack', 'Vue', 'Vuex', 'Google Maps', 'Charts.js'],
-        media: {
-            type: 'video',
-            background: 'bg-blue-50'
-        },
-        ffmpeg: {
-            input: 'mov',
-            y: 148
-        }
-    },
-    {
         client: clients.squarestudio,
         id: 'avenues',
-        date: 'Sep 2020',
-        title: 'Portfolio website for Avenues Studio',
+        date: '2021',
+        title: 'Corporate website for video editing company',
         tags: ['Webpack', 'Vue', 'Vuex', 'Directus', 'MySQL', 'FFmpeg'],
         url: 'https://avenues.studio',
         media: {
@@ -230,8 +201,24 @@ export default [
     },
     {
         client: clients.openroom,
+        id: 'openroom-map',
+        date: '2020',
+        title: 'Property explorer',
+        tags: ['Webpack', 'Vue', 'Vuex', 'Google Maps', 'Charts.js'],
+        media: {
+            type: 'video',
+            background: 'bg-blue-50'
+        },
+        ffmpeg: {
+            input: 'mov',
+            y: 148
+        }
+    },
+
+    {
+        client: clients.openroom,
         id: 'openroom-ocr',
-        date: 'Apr 2020',
+        date: '2020',
         title: 'Property diagram manager',
         tags: ['Webpack', 'Vue', 'Vuex', 'HTML5 Canvas'],
         url: 'https://forestapp.openrm.jp/',
@@ -247,8 +234,8 @@ export default [
     {
         client: clients.raymond,
         id: 'holidaysnipe',
-        date: 'Apr 2020',
-        title: 'HolidaySnipe - Travel booking platform',
+        date: '2019',
+        title: 'Travel booking platform',
         url: 'https://www.holidaysnipe.com/',
         tags: ['Webpack', 'Vue', 'Vuex'],
         media: {
@@ -261,9 +248,9 @@ export default [
     {
         client: clients.dynconnect,
         id: 'surveys',
-        date: 'Sep 2019',
+        date: '2019',
         title: 'Survey application',
-        tags: ['Webpack', 'Apache Cordova', 'Mobile App', 'UI/UX Design', 'GSAP'],
+        tags: ['Webpack', 'Apache Cordova', 'Mobile App', 'UI/UX Design', 'GSAP', 'Directus'],
         media: {
             type: 'video'
         },
@@ -274,10 +261,95 @@ export default [
     {
         client: clients.dynconnect,
         id: 'barcode',
-        date: 'Aug 2019',
+        date: '2018',
         title: 'Sticker creation tool',
         url: 'https://barcode-editor-ks.netlify.app/',
-        tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design', 'Fabric.js', 'HTML5 Canvas'],
+        tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design', 'Fabric.js', 'HTML5 Canvas', 'Directus'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mp4',
+        }
+    },
+    {
+        client: clients.dynconnect,
+        id: 'altaviasumis',
+        date: '2018',
+        title: 'Order management application',
+        // url: 'https://barcode-editor-ks.netlify.app/',
+        tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mp4',
+        }
+    },
+    {
+        client: clients.raymond,
+        id: 'printfellow',
+        date: '2017',
+        title: 'Printing service platform',
+        // url: 'https://barcode-editor-ks.netlify.app/',
+        tags: ['AngularJS'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mov',
+        }
+    },
+
+    {
+        client: clients.raymond,
+        id: 'mediascheppers',
+        date: '2017',
+        title: 'Corporate website for design agency',
+        url: 'http://www.mediascheppers.nl',
+        tags: ['AngularJS'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mp4',
+        }
+    },
+    {
+        client: clients.upgames,
+        id: 'upgames',
+        date: '2016',
+        title: 'Corporate website for game developer',
+        url: 'https://upgames.ltd',
+        tags: ['AngularJS', 'Directus', 'GSAP', 'SVG'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mp4',
+        }
+    },
+    {
+        client: clients.marc,
+        id: 'icons',
+        date: '2016',
+        title: 'Animated SVG icons',
+        url: 'https://svg-icons.netlify.app/icm.html',
+        tags: ['Animation', 'SVG', 'GSAP'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mp4',
+        }
+    },
+    {
+
+        id: 'vpn',
+        date: '2016',
+        title: 'Animated promo for VPN provider',
+        url: 'https://vpn-movie.netlify.app/',
+        tags: ['Animation', 'CSS animation', 'SVG'],
         media: {
             type: 'video'
         },
@@ -290,21 +362,7 @@ export default [
         id: 'pumb-2014',
         date: '2015',
         title: 'Bank annual report',
-        tags: [],
-        media: {
-            type: 'video',
-        },
-        ffmpeg: {
-            input: 'mov',
-            y: 2
-        }
-    },
-    {
-        client: clients.areon,
-        id: 'pumb-2013',
-        date: '2014',
-        title: 'Bank annual report',
-        tags: [],
+        tags: ['Highcharts', 'jQuery'],
         media: {
             type: 'video',
         },
@@ -317,7 +375,7 @@ export default [
         client: clients.areon,
         id: 'kyivstar',
         title: 'Mobile operator application',
-        date: '2013 - 2015',
+        date: '2014',
         url: 'https://play.google.com/store/apps/details?id=com.kyivstar.mykyivstar',
         tags: ['Apache Cordova', 'Mobile App', 'AngularJS'],
         media: {
@@ -332,7 +390,7 @@ export default [
         id: 'christmasfrenzy',
         date: '2012',
         title: 'Match-3 game with a Christmas theme',
-        tags: ['Apache Cordova', 'Mobile App', 'Game', 'jQuery'],
+        tags: ['Apache Cordova', 'Mobile App', 'jQuery'],
         url: 'https://christmas-frenzy.netlify.app/',
         media: {
             type: 'video',
@@ -346,7 +404,7 @@ export default [
         id: 'bender',
         title: 'Bender (Futurama) animation',
         date: '2011',
-        tags: ['Animation'],
+        tags: ['Animation', 'CSS animation'],
         url: 'https://labs-ks.netlify.app/bender.html',
         media: {
             type: 'video',
@@ -361,7 +419,7 @@ export default [
         id: 'ft',
         date: '2011',
         title: 'Futuristic animation',
-        tags: ['Animation'],
+        tags: ['Animation', 'CSS animation'],
         url: 'https://labs-ks.netlify.app/ft.html',
         media: {
             type: 'video',

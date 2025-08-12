@@ -52,6 +52,16 @@ export default {
     areon: {
         title: 'Areon consulting ',
         url: 'https://areon.ua',
+    },
+
+    upgames: {
+        title: 'UpGames',
+        url: 'https://upgames.ltd/',
+    },
+
+    marc: {
+        title: 'MARC',
+        url: 'https://marc4grc.com/'
     }
 
 }

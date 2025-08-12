@@ -1,3 +1,5 @@
+import clients from "~db/clients";
+
 export default [
     {
         id: 'poisson',
@@ -53,6 +55,20 @@ export default [
         }
     },
     {
+        client: clients.areon,
+        id: 'pumb-2013',
+        date: '2014',
+        title: 'Bank annual report',
+        tags: ['Highcharts', 'jQuery'],
+        media: {
+            type: 'video',
+        },
+        ffmpeg: {
+            input: 'mov',
+            y: 2
+        }
+    },
+    {
         id: 'shooter',
         title: 'Click-to-hit shooter',
         date: '2012',
@@ -81,6 +97,35 @@ export default [
         },
         ffmpeg: {
             input: 'mov',
+        }
+    },
+    {
+        id: 'overland',
+        date: 'Mar 2016',
+        title: 'Logo animation',
+        url: 'https://labs-ks.netlify.app/logo.html',
+        tags: ['Animation'],
+        media: {
+            type: 'video',
+            full: true
+        },
+        ffmpeg: {
+            input: 'mp4',
+        }
+    },
+    {
+        client: clients.squarestudio,
+        id: 'jurgenostarhild',
+        date: 'Mar 2023',
+        title: 'Portfolio website for Jurgeno Starhild',
+        tags: ['Vite', 'Vue', 'SSR', 'Directus', 'MySQL'],
+        url: 'https://jurgenostarhild.eu/',
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mov',
+            y: 2
         }
     },
 ]
