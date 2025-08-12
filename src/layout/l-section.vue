@@ -25,21 +25,26 @@
 
 <template>
     <section class="l-section container-sm">
-        <article v-for="project in filtered" :key="project.id">
+        <article v-for="project in filtered" :key="project.id" :id="project.id">
 
 
-            <!-- project -->
+            <!-- note -->
 
-            <ui-dynamic :href="project.url">
+            <div class="max-sm:px-4 text-xs text-gray-400">
+                <span>{{ project.date }}</span>
+                <span v-if="project.client">&nbsp;•&nbsp;</span>
+                <a v-if="project.client" class="inline hover:underline" :href="project.client.url">{{ project.client.title }}</a>
+            </div>
 
-                <div class="mb-2 max-sm:px-4">
-                    <span class="text-xs text-gray-400">{{ project.date }}</span>
-                    <h2>{{ project.title }}</h2>
-                </div>
 
-                <ui-media v-if="project.media" :id="project.id" v-bind="project.media" />
+            <!-- title -->
 
-            </ui-dynamic>
+            <h2 class="max-sm:px-4 mb-2">{{ project.title }}</h2>
+
+
+            <!-- media -->
+
+            <ui-media v-bind="project" />
 
 
             <!-- tags -->

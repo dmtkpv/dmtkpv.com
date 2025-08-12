@@ -15,8 +15,12 @@ export type Project = {
     id: string,
     title: string,
     date: string,
-    url?: string,
     tags: string[],
+    url?: string,
+    client: {
+        title: string,
+        url: string,
+    },
     media: {
         type: 'video' | 'image',
         full?: boolean,

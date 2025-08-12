@@ -47,12 +47,12 @@
 -->
 
 <template>
-    <div ref="el" class="ui-media" :class="{ 'p-6': !full }" v-bind="background">
+    <ui-dynamic :href="url" class="ui-media" :class="{ 'p-6': !media.full }" v-bind="background">
         <div class="ui-media_container">
             <img ref="img" :src="`/media/${id}.jpg`">
-            <ui-video v-if="type === 'video' && visible" :id="id" />
+            <ui-video v-if="media.type === 'video' && visible" :id="id" />
         </div>
-    </div>
+    </ui-dynamic>
 </template>
 
 
@@ -63,22 +63,17 @@
 
 <script setup lang="ts">
 
-    import { ref, watch, computed, useTemplateRef, onMounted, onUnmounted, nextTick } from 'vue';
+    import { ref, watch, computed, onMounted, onUnmounted, nextTick } from 'vue';
     import { useState } from '~/plugins/state'
+    import type { Project } from '~types';
 
-    const props = defineProps<{
-        id: string,
-        type: 'video' | 'image',
-        full?: Boolean,
-        background?: string,
-    }>()
-
-    const el = useTemplateRef('el');
+    const { id, url, media } = defineProps<Project>()
+    const el = ref<HTMLElement | null>(null);
     const state = useState();
     const visible = ref(false);
 
     const background = computed(() => {
-      const { background = 'bg-slate-100' } = props;
+      const { background = 'bg-slate-100' } = media;
       if (background.startsWith('bg-')) return { class: background };
       return { style: { background } };
     })
@@ -101,6 +96,7 @@
     }
 
     onMounted(() => {
+        el.value = document.querySelector(`#${id} .ui-media`);
         window.addEventListener('scroll', onScroll);
         onScroll();
         show();
