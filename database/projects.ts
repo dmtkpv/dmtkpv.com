@@ -6,7 +6,7 @@ export default [
         id: 'dmtkpv-ssg',
         date: '2025',
         title: 'Static-site generator for Vue 3',
-        tags: ['Vue', 'Vite', 'Open Source', 'TypeScript', 'SSG', 'Monorepo', 'Node.js'],
+        tags: ['Vue', 'Vite', 'Open Source', 'TypeScript', 'SSG', 'Node.js'],
         url: 'https://github.com/dmtkpv/ssg',
         media: {
             type: 'video',
@@ -20,7 +20,7 @@ export default [
         id: 'meditation-player',
         date: '2025',
         title: 'Meditation player',
-        tags: ['Vue', 'Vite', 'IndexedDB', 'TailwindCSS', 'HTML5 Audio', 'PWA', 'Mobile App', 'UI/UX Design', 'Vercel'],
+        tags: ['Vue', 'Vite', 'IndexedDB', 'TailwindCSS', 'HTML5 Audio', 'PWA', 'Mobile App', 'UI/UX Design', 'Vercel', 'Frontend'],
         url: 'https://les-meditations-v2.vercel.app',
         media: {
             type: 'video',
@@ -50,7 +50,7 @@ export default [
         id: 'stage-app',
         date: '2024',
         title: 'Internship placement platform',
-        tags: ['PostgreSQL', 'ExpressJS', 'Directus', 'Stripe', 'Monorepo', 'Google Maps', 'Google Cloud Storage', 'Knex', 'Socket.io', 'Charts.js', 'Vue', 'Vite', 'SSR', 'SCSS', 'JWT', 'Node.js'],
+        tags: ['PostgreSQL', 'ExpressJS', 'Directus', 'Stripe', 'Google Maps', 'Google Cloud Storage', 'Knex', 'Socket.io', 'Charts', 'Vue', 'Vite', 'SSR', 'SCSS', 'Node.js', 'Fullstack', 'Web App'],
         url: 'https://stage-app.nl/',
         media: {
             type: 'video'
@@ -65,7 +65,7 @@ export default [
         id: 'odedwebman',
         date: '2023',
         title: 'Artist portfolio website',
-        tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS'],
+        tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS', 'Fullstack', 'Website'],
         url: 'https://www.odedwebman.com',
         media: {
             type: 'video',
@@ -96,7 +96,7 @@ export default [
         id: 'dmtkpv-ssr',
         date: '2023',
         title: 'Server-side renderer for Vue 3',
-        tags: ['Vite', 'Vue', 'SSR', 'Open Source', 'Monorepo', 'Node.js', 'ExpressJS'],
+        tags: ['Vite', 'Vue', 'SSR', 'Open Source', 'Node.js', 'ExpressJS'],
         url: 'https://github.com/dmtkpv/vite-vue-ssr',
         media: {
             type: 'image'
@@ -110,7 +110,7 @@ export default [
         id: 'abwaab',
         date: '2022',
         title: 'Learning management system on Directus',
-        tags: ['Vue', 'Directus', 'PostgreSQL', 'Docker', 'MathJax', 'Node.js', 'Knex'],
+        tags: ['Vue', 'Directus', 'PostgreSQL', 'Docker', 'MathJax', 'Node.js', 'Knex', 'Fullstack'],
         url: 'https://abwaab.com/',
         media: {
             type: 'video',
@@ -125,7 +125,7 @@ export default [
         id: 'tabstats',
         date: '2022',
         title: 'Performance monitor extension for Chrome',
-        tags: ['Chrome extension', 'HTML5 Canvas', 'Open Source'],
+        tags: ['Chrome Extension', 'HTML5 Canvas', 'Open Source'],
         url: 'https://github.com/dmtkpv/tabstats',
         media: {
             type: 'video',
@@ -140,7 +140,7 @@ export default [
         id: 'lvivsoft',
         date: '2021',
         title: 'Corporate website for IT services company',
-        tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus'],
+        tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus', 'Fullstack', 'GraphQL', 'Website'],
         url: 'https://lvivsoft.com',
         media: {
             type: 'video',
@@ -156,7 +156,7 @@ export default [
         id: 'victorarwas',
         date: '2021',
         title: 'Art gallery website',
-        tags: ['Webpack', 'SCSS', 'Vue', 'Vuex', 'SSR', 'MySQL', 'Directus'],
+        tags: ['Webpack', 'SCSS', 'Vue', 'Vuex', 'SSR', 'MySQL', 'Directus', 'Fullstack', 'Node.js', 'Website'],
         url: 'https://victorarwasart.com',
         media: {
             type: 'video',
@@ -189,7 +189,7 @@ export default [
         id: 'avenues',
         date: '2021',
         title: 'Corporate website for video editing company',
-        tags: ['Webpack', 'Vue', 'Vuex', 'Directus', 'MySQL', 'FFmpeg'],
+        tags: ['Webpack', 'Vue', 'Vuex', 'Directus', 'MySQL', 'FFmpeg', 'Fullstack', 'HTML5 Video', 'Node.js', 'Website'],
         url: 'https://avenues.studio',
         media: {
             type: 'video',
@@ -204,14 +204,14 @@ export default [
         id: 'openroom-map',
         date: '2020',
         title: 'Property explorer',
-        tags: ['Webpack', 'Vue', 'Vuex', 'Google Maps', 'Charts.js'],
+        tags: ['Webpack', 'Vue', 'Vuex', 'Google Maps', 'Charts', 'Web App', 'Frontend'],
         media: {
             type: 'video',
             background: 'bg-blue-50'
         },
         ffmpeg: {
             input: 'mov',
-            y: 148
+            y: 100
         }
     },
 
@@ -220,7 +220,7 @@ export default [
         id: 'openroom-ocr',
         date: '2020',
         title: 'Property diagram manager',
-        tags: ['Webpack', 'Vue', 'Vuex', 'HTML5 Canvas'],
+        tags: ['Webpack', 'Vue', 'Vuex', 'HTML5 Canvas', 'Web App', 'Frontend'],
         url: 'https://forestapp.openrm.jp/',
         media: {
             type: 'video',
@@ -237,7 +237,7 @@ export default [
         date: '2019',
         title: 'Travel booking platform',
         url: 'https://www.holidaysnipe.com/',
-        tags: ['Webpack', 'Vue', 'Vuex'],
+        tags: ['Webpack', 'Vue', 'Vuex', 'Web App', 'Frontend'],
         media: {
             type: 'video'
         },
@@ -250,7 +250,7 @@ export default [
         id: 'surveys',
         date: '2019',
         title: 'Survey application',
-        tags: ['Webpack', 'Apache Cordova', 'Mobile App', 'UI/UX Design', 'GSAP', 'Directus'],
+        tags: ['Webpack', 'Apache Cordova', 'Mobile App', 'UI/UX Design', 'GSAP', 'Frontend'],
         media: {
             type: 'video'
         },
@@ -264,7 +264,7 @@ export default [
         date: '2018',
         title: 'Sticker creation tool',
         url: 'https://barcode-editor-ks.netlify.app/',
-        tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design', 'Fabric.js', 'HTML5 Canvas', 'Directus'],
+        tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design', 'Fabric.js', 'HTML5 Canvas', 'Web App', 'Frontend'],
         media: {
             type: 'video'
         },
@@ -277,37 +277,7 @@ export default [
         id: 'altaviasumis',
         date: '2018',
         title: 'Order management application',
-        // url: 'https://barcode-editor-ks.netlify.app/',
-        tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design'],
-        media: {
-            type: 'video'
-        },
-        ffmpeg: {
-            input: 'mp4',
-        }
-    },
-    {
-        client: clients.raymond,
-        id: 'printfellow',
-        date: '2017',
-        title: 'Printing service platform',
-        // url: 'https://barcode-editor-ks.netlify.app/',
-        tags: ['AngularJS'],
-        media: {
-            type: 'video'
-        },
-        ffmpeg: {
-            input: 'mov',
-        }
-    },
-
-    {
-        client: clients.raymond,
-        id: 'mediascheppers',
-        date: '2017',
-        title: 'Corporate website for design agency',
-        url: 'http://www.mediascheppers.nl',
-        tags: ['AngularJS'],
+        tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design', 'Web App', 'Frontend'],
         media: {
             type: 'video'
         },
@@ -318,24 +288,52 @@ export default [
     {
         client: clients.upgames,
         id: 'upgames',
-        date: '2016',
+        date: '2018',
         title: 'Corporate website for game developer',
         url: 'https://upgames.ltd',
-        tags: ['AngularJS', 'Directus', 'GSAP', 'SVG'],
+        tags: ['AngularJS', 'GSAP', 'SVG', 'Directus', 'Fullstack', 'Website'],
         media: {
             type: 'video'
         },
         ffmpeg: {
-            input: 'mp4',
+            input: 'mov',
+        }
+    },
+    {
+        client: clients.raymond,
+        id: 'printfellow',
+        date: '2017',
+        title: 'Printing service platform',
+        url: 'https://printfellow.com/',
+        tags: ['AngularJS', 'Web App', 'Frontend'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mov',
         }
     },
     {
         client: clients.marc,
         id: 'icons',
-        date: '2016',
+        date: '2017',
         title: 'Animated SVG icons',
         url: 'https://svg-icons.netlify.app/icm.html',
         tags: ['Animation', 'SVG', 'GSAP'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mov',
+        }
+    },
+    {
+        client: clients.raymond,
+        id: 'mediascheppers',
+        date: '2016',
+        title: 'Corporate website for design agency',
+        url: 'http://www.mediascheppers.nl',
+        tags: ['AngularJS', 'Website', 'Frontend'],
         media: {
             type: 'video'
         },
@@ -349,12 +347,13 @@ export default [
         date: '2016',
         title: 'Animated promo for VPN provider',
         url: 'https://vpn-movie.netlify.app/',
-        tags: ['Animation', 'CSS animation', 'SVG'],
+        tags: ['Animation', 'CSS Animation', 'SVG'],
         media: {
-            type: 'video'
+            type: 'video',
+            full: true
         },
         ffmpeg: {
-            input: 'mp4',
+            input: 'mov',
         }
     },
     {
@@ -362,7 +361,7 @@ export default [
         id: 'pumb-2014',
         date: '2015',
         title: 'Bank annual report',
-        tags: ['Highcharts', 'jQuery'],
+        tags: ['Charts', 'jQuery', 'Website'],
         media: {
             type: 'video',
         },
@@ -404,7 +403,7 @@ export default [
         id: 'bender',
         title: 'Bender (Futurama) animation',
         date: '2011',
-        tags: ['Animation', 'CSS animation'],
+        tags: ['Animation', 'CSS Animation'],
         url: 'https://labs-ks.netlify.app/bender.html',
         media: {
             type: 'video',
@@ -419,7 +418,7 @@ export default [
         id: 'ft',
         date: '2011',
         title: 'Futuristic animation',
-        tags: ['Animation', 'CSS animation'],
+        tags: ['Animation', 'CSS Animation'],
         url: 'https://labs-ks.netlify.app/ft.html',
         media: {
             type: 'video',
