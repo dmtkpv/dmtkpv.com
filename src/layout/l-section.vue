@@ -30,10 +30,10 @@
 
             <!-- note -->
 
-            <div class="max-sm:px-4 text-xs text-gray-400">
+            <div class="max-sm:px-4 text-xs text-gray-400 [&>a]:hover:underline">
                 <span>{{ project.date }}</span>
                 <span v-if="project.client">&nbsp;•&nbsp;</span>
-                <a v-if="project.client" class="inline hover:underline" :href="project.client.url">{{ project.client.title }}</a>
+                <ui-dynamic v-if="project.client" class="inline" :href="project.client.url" target="_blank">{{ project.client.title }}</ui-dynamic>
             </div>
 
 
@@ -73,6 +73,7 @@
     import { computed } from 'vue'
     import { useState } from '~/plugins/state'
     import projects from '../../database/projects'
+    import UiDynamic from "~/ui/ui-dynamic.vue";
 
     const state = useState();
 

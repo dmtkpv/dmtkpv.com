@@ -17,9 +17,9 @@ export type Project = {
     date: string,
     tags: string[],
     url?: string,
-    client: {
+    client?: {
         title: string,
-        url: string,
+        url?: string,
     },
     media: {
         type: 'video' | 'image',

@@ -1,25 +1,27 @@
 import type { Project } from '~types'
+import clients from './clients'
 
 export default [
     {
         id: 'dmtkpv-ssg',
-        title: 'Static-site generator for Vue 3',
         date: 'July 2025',
-        url: 'https://github.com/dmtkpv/ssg',
+        title: 'Static-site generator for Vue 3',
         tags: ['Vue', 'Vite', 'Open Source', 'TypeScript', 'SSG', 'Monorepo', 'Node.js'],
+        url: 'https://github.com/dmtkpv/ssg',
         media: {
-            type: 'image'
+            type: 'video',
         },
         ffmpeg: {
             input: 'png'
-        }
+        },
     },
     {
+        client: clients.gallaz,
         id: 'meditation-player',
-        title: 'Meditation player',
         date: 'June 2025',
-        url: 'https://les-meditations-v2.vercel.app',
+        title: 'Meditation player',
         tags: ['Vue', 'Vite', 'IndexedDB', 'TailwindCSS', 'HTML5 Audio', 'PWA', 'Mobile App', 'UI/UX Design', 'Vercel'],
+        url: 'https://les-meditations-v2.vercel.app',
         media: {
             type: 'video',
         },
@@ -28,11 +30,12 @@ export default [
         }
     },
     {
+        client: clients.semantic,
         id: 'rechtsinformers',
-        title: 'Animated logo for Rechtsinformers',
         date: 'May 2025',
-        url: 'https://rechtsinformer.netlify.app/showcase.html',
+        title: 'Animated logo',
         tags: ['HTML5 Canvas', 'GSAP', 'Rollup', 'Animation'],
+        url: 'https://rechtsinformer.netlify.app/showcase.html',
         media: {
             type: 'video',
             full: true,
@@ -43,11 +46,12 @@ export default [
         }
     },
     {
+        client: clients.bizberg,
         id: 'stage-app',
-        title: 'Stage App - Internship placement platform',
         date: 'Nov 2023 - Apr 2025',
-        url: 'https://stage-app.nl/',
+        title: 'Stage App - Internship placement platform',
         tags: ['PostgreSQL', 'ExpressJS', 'Directus', 'Stripe', 'Monorepo', 'Google Maps', 'Google Cloud Storage', 'Knex', 'Socket.io', 'Charts.js', 'Vue', 'Vite', 'SSR', 'SCSS', 'JWT', 'Node.js'],
+        url: 'https://stage-app.nl/',
         media: {
             type: 'video'
         },
@@ -57,11 +61,12 @@ export default [
         }
     },
     {
+        client: clients.squarestudio,
         id: 'odedwebman',
-        title: 'Portfolio website for Oded Webman',
         date: 'Oct 2023',
-        url: 'https://www.odedwebman.com',
+        title: 'Portfolio website for Oded Webman',
         tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS'],
+        url: 'https://www.odedwebman.com',
         media: {
             type: 'video',
             background: '#42220a'
@@ -72,9 +77,10 @@ export default [
         }
     },
     {
+        client: clients.squarestudio,
         id: 'directus-grid',
-        title: 'Directus grid interface',
         date: 'Sep 2023',
+        title: 'Directus grid interface',
         tags: ['Rollup', 'Vue', 'Directus'],
         media: {
             type: 'video',
@@ -86,11 +92,12 @@ export default [
         }
     },
     {
+        client: clients.squarestudio,
         id: 'jurgenostarhild',
-        title: 'Portfolio website for Jurgeno Starhild',
         date: 'Aug 2023',
-        url: 'https://jurgenostarhild.eu/',
+        title: 'Portfolio website for Jurgeno Starhild',
         tags: ['Vite', 'Vue', 'SSR', 'Directus', 'MySQL'],
+        url: 'https://jurgenostarhild.eu/',
         media: {
             type: 'video'
         },
@@ -101,10 +108,10 @@ export default [
     },
     {
         id: 'dmtkpv-ssr',
-        title: 'Server-side renderer for Vue 3',
         date: 'July 2023',
-        url: 'https://github.com/dmtkpv/vite-vue-ssr',
+        title: 'Server-side renderer for Vue 3',
         tags: ['Vite', 'Vue', 'SSR', 'Open Source', 'Monorepo', 'Node.js', 'ExpressJS'],
+        url: 'https://github.com/dmtkpv/vite-vue-ssr',
         media: {
             type: 'image'
         },
@@ -113,11 +120,12 @@ export default [
         }
     },
     {
+        client: clients.abwaab,
         id: 'abwaab',
-        title: 'Learning managment system for Abwaab',
         date: 'Feb 2022 - June 2023',
-        url: 'https://abwaab.com/',
+        title: 'Learning management system on Directus',
         tags: ['Vue', 'Directus', 'PostgreSQL', 'Docker', 'MathJax', 'Node.js', 'Knex'],
+        url: 'https://abwaab.com/',
         media: {
             type: 'video',
             background: 'bg-gray-300'
@@ -127,25 +135,12 @@ export default [
             y: 2
         }
     },
-    // {
-    //     id: 'poisson',
-    //     title: '2D Poisson disk sampling',
-    //     date: 'Jan 2022',
-    //     url: 'https://github.com/dmtkpv/poisson',
-    //     tags: ['Webpack', 'HTML5 Canvas', 'Open Source'],
-    //     media: {
-    //         type: 'video'
-    //     },
-    //     ffmpeg: {
-    //         input: 'mov',
-    //     }
-    // },
     {
         id: 'tabstats',
-        title: 'Performance monitor extension for Chrome',
         date: 'Sep 2021',
-        url: 'https://github.com/dmtkpv/tabstats',
+        title: 'Performance monitor extension for Chrome',
         tags: ['Chrome extension', 'HTML5 Canvas', 'Open Source'],
+        url: 'https://github.com/dmtkpv/tabstats',
         media: {
             type: 'video',
             background: '#e5e7eb'
@@ -155,11 +150,12 @@ export default [
         }
     },
     {
+        client: clients.squarestudio,
         id: 'lvivsoft',
-        title: 'Corporate website for LvivSoft',
         date: 'Aug 2021',
-        url: 'https://lvivsoft.com',
+        title: 'Corporate website for LvivSoft',
         tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus'],
+        url: 'https://lvivsoft.com',
         media: {
             type: 'video',
             background: 'bg-gray-200'
@@ -170,11 +166,12 @@ export default [
         }
     },
     {
+        client: clients.squarestudio,
         id: 'victorarwas',
-        title: 'Gallery website for Victor Arwas',
         date: 'May 2021',
-        url: 'https://victorarwasart.com',
+        title: 'Gallery website for Victor Arwas',
         tags: ['Webpack', 'SCSS', 'Vue', 'Vuex', 'SSR', 'MySQL', 'Directus'],
+        url: 'https://victorarwasart.com',
         media: {
             type: 'video',
             background: '#fcf1e9'
@@ -185,11 +182,12 @@ export default [
         }
     },
     {
+        client: clients.lightsail,
         id: 'lightsail',
-        title: 'Feature map for LightSail',
         date: 'Feb 2021',
-        url: 'https://lightsailed.com/reading-at-home/es/feature-list-3d/',
+        title: 'Feature map',
         tags: ['Webpack', 'GSAP', 'Animation'],
+        url: 'https://lightsailed.com/reading-at-home/es/feature-list-3d/',
         media: {
             type: 'video',
             background: '#000',
@@ -201,9 +199,10 @@ export default [
         }
     },
     {
+        client: clients.openroom,
         id: 'openroom-map',
-        title: 'Property explorer for Open Room Inc.',
         date: 'Dec 2020',
+        title: 'Property explorer',
         tags: ['Webpack', 'Vue', 'Vuex', 'Google Maps', 'Charts.js'],
         media: {
             type: 'video',
@@ -215,11 +214,12 @@ export default [
         }
     },
     {
+        client: clients.squarestudio,
         id: 'avenues',
-        title: 'Portfolio website for Avenues Studio',
         date: 'Sep 2020',
-        url: 'https://avenues.studio',
+        title: 'Portfolio website for Avenues Studio',
         tags: ['Webpack', 'Vue', 'Vuex', 'Directus', 'MySQL', 'FFmpeg'],
+        url: 'https://avenues.studio',
         media: {
             type: 'video',
             background: 'bg-gray-200'
@@ -229,9 +229,10 @@ export default [
         }
     },
     {
+        client: clients.openroom,
         id: 'openroom-ocr',
-        title: 'Property diagram manager for Open Room Inc.',
         date: 'Apr 2020',
+        title: 'Property diagram manager',
         tags: ['Webpack', 'Vue', 'Vuex', 'HTML5 Canvas'],
         url: 'https://forestapp.openrm.jp/',
         media: {
@@ -244,9 +245,10 @@ export default [
         }
     },
     {
+        client: clients.raymond,
         id: 'holidaysnipe',
-        title: 'HolidaySnipe - Travel booking platform',
         date: 'Apr 2020',
+        title: 'HolidaySnipe - Travel booking platform',
         url: 'https://www.holidaysnipe.com/',
         tags: ['Webpack', 'Vue', 'Vuex'],
         media: {
@@ -257,23 +259,10 @@ export default [
         }
     },
     {
-        id: 'grave',
-        title: 'Funeral services website',
-        date: 'Nov 2019',
-        url: 'http://xn--80abhuhjendq4a.com.ua/',
-        tags: ['Webpack', 'WebGL', 'Netlify', 'SSG', 'UI/UX Design'],
-        media: {
-            type: 'video'
-        },
-        ffmpeg: {
-            input: 'mov',
-            y: 2
-        }
-    },
-    {
+        client: clients.dynconnect,
         id: 'surveys',
-        title: 'Survey application',
         date: 'Sep 2019',
+        title: 'Survey application',
         tags: ['Webpack', 'Apache Cordova', 'Mobile App', 'UI/UX Design', 'GSAP'],
         media: {
             type: 'video'
@@ -283,9 +272,10 @@ export default [
         }
     },
     {
+        client: clients.dynconnect,
         id: 'barcode',
-        title: 'Sticker creation tool',
         date: 'Aug 2019',
+        title: 'Sticker creation tool',
         url: 'https://barcode-editor-ks.netlify.app/',
         tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design', 'Fabric.js', 'HTML5 Canvas'],
         media: {
@@ -295,36 +285,39 @@ export default [
             input: 'mp4',
         }
     },
-    // {
-    //     id: 'marijuana',
-    //     title: 'Infographic landing page',
-    //     date: 'Mar 2019',
-    //     url: 'https://www.nylawnet.com/recreational-marijuana-legalization-implications/',
-    //     tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design'],
-    //     media: {
-    //         type: 'video'
-    //     },
-    //     ffmpeg: {
-    //         input: 'mov',
-    //     }
-    // },
-    // {
-    //     id: 'holier',
-    //     title: 'Infographic landing page',
-    //     date: 'Mar 2019',
-    //     url: 'https://www.nylawnet.com/recreational-marijuana-legalization-implications/',
-    //     tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design'],
-    //     media: {
-    //         type: 'video'
-    //     },
-    //     ffmpeg: {
-    //         input: 'mov',
-    //     }
-    // }
     {
+        client: clients.areon,
+        id: 'pumb-2014',
+        date: '2015',
+        title: 'Bank annual report',
+        tags: [],
+        media: {
+            type: 'video',
+        },
+        ffmpeg: {
+            input: 'mov',
+            y: 2
+        }
+    },
+    {
+        client: clients.areon,
+        id: 'pumb-2013',
+        date: '2014',
+        title: 'Bank annual report',
+        tags: [],
+        media: {
+            type: 'video',
+        },
+        ffmpeg: {
+            input: 'mov',
+            y: 2
+        }
+    },
+    {
+        client: clients.areon,
         id: 'kyivstar',
         title: 'Mobile operator application',
-        date: 'Mar 2013 - Oct 2015 • Areon Consulting',
+        date: '2013 - 2015',
         url: 'https://play.google.com/store/apps/details?id=com.kyivstar.mykyivstar',
         tags: ['Apache Cordova', 'Mobile App', 'AngularJS'],
         media: {
@@ -335,11 +328,12 @@ export default [
         }
     },
     {
+        client: clients.whitelord,
         id: 'christmasfrenzy',
+        date: '2012',
         title: 'Match-3 game with a Christmas theme',
-        date: '2012 • WhiteLord Solutions LLP',
-        url: 'https://christmas-frenzy.netlify.app/',
         tags: ['Apache Cordova', 'Mobile App', 'Game', 'jQuery'],
+        url: 'https://christmas-frenzy.netlify.app/',
         media: {
             type: 'video',
             background: '#C33C26'
@@ -349,40 +343,11 @@ export default [
         }
     },
     {
-        id: 'hot-numbers',
-        title: 'Number guessing reveal game',
-        date: '2012 • WhiteLord Solutions LLP',
-        url: 'https://4pda.to/forum/index.php?showtopic=393724',
-        tags: ['Apache Cordova', 'Mobile App', 'Game', 'jQuery', 'UI/UX Design'],
-        media: {
-            type: 'video',
-            full: true
-            // background: 'bg-pink-500'
-        },
-        ffmpeg: {
-            input: 'mov',
-        }
-    },
-    // {
-    //     id: 'shooter',
-    //     title: 'Click-to-hit shooter',
-    //     date: '2012 • WhiteLord Solutions LLP',
-    //     url: 'https://dmtkpv-portfolio.github.io/shooter/',
-    //     tags: ['Game'],
-    //     media: {
-    //         type: 'video',
-    //     },
-    //     ffmpeg: {
-    //         input: 'mov',
-    //     }
-    // },
-
-    {
         id: 'bender',
         title: 'Bender (Futurama) animation',
-        date: '2011 • jsdo.it',
-        url: 'https://labs-ks.netlify.app/bender.html',
+        date: '2011',
         tags: ['Animation'],
+        url: 'https://labs-ks.netlify.app/bender.html',
         media: {
             type: 'video',
             background: 'linear-gradient(to left, #547489, #85A0B1, #547489)',
@@ -394,10 +359,10 @@ export default [
     },
     {
         id: 'ft',
+        date: '2011',
         title: 'Futuristic animation',
-        date: '2011 • jsdo.it',
-        url: 'https://labs-ks.netlify.app/ft.html',
         tags: ['Animation'],
+        url: 'https://labs-ks.netlify.app/ft.html',
         media: {
             type: 'video',
             background: 'bg-white',
