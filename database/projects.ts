@@ -281,7 +281,8 @@ export default [
             type: 'video'
         },
         ffmpeg: {
-            input: 'mp4',
+            input: 'mov',
+            y: 2
         }
     },
     {
