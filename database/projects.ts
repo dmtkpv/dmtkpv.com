@@ -34,7 +34,7 @@ export default [
         id: 'rechtsinformers',
         date: '2025',
         title: 'Animated logo',
-        tags: ['HTML5 Canvas', 'GSAP', 'Rollup', 'Animation'],
+        tags: ['HTML5 Canvas', 'GSAP', 'Rollup', 'Animation', 'Vercel'],
         url: 'https://rechtsinformer.netlify.app/showcase.html',
         media: {
             type: 'video',
@@ -50,7 +50,7 @@ export default [
         id: 'stage-app',
         date: '2024',
         title: 'Internship placement platform',
-        tags: ['PostgreSQL', 'ExpressJS', 'Directus', 'Stripe', 'Google Maps', 'Google Cloud Storage', 'Knex', 'Socket.io', 'Charts', 'Vue', 'Vite', 'SSR', 'SCSS', 'Node.js', 'Fullstack', 'Web App'],
+        tags: ['PostgreSQL', 'ExpressJS', 'Directus', 'Stripe', 'Google Maps', 'Google Cloud Storage', 'Knex', 'Socket.io', 'Charts', 'Vue', 'Vite', 'SSR', 'SCSS', 'Node.js', 'Fullstack', 'Web App', 'AWS'],
         url: 'https://stage-app.nl/',
         media: {
             type: 'video'
@@ -65,7 +65,7 @@ export default [
         id: 'odedwebman',
         date: '2023',
         title: 'Artist portfolio website',
-        tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS', 'Fullstack', 'Website'],
+        tags: ['Vue', 'Vite', 'SSR', 'Directus', 'MySQL', 'SCSS', 'Fullstack', 'Website', 'AWS'],
         url: 'https://www.odedwebman.com',
         media: {
             type: 'video',
@@ -81,7 +81,7 @@ export default [
         id: 'directus-grid',
         date: '2023',
         title: 'Directus grid interface',
-        tags: ['Rollup', 'Vue', 'Directus'],
+        tags: ['Rollup', 'Vue', 'Directus', 'Web App'],
         media: {
             type: 'video'
         },
@@ -109,7 +109,7 @@ export default [
         id: 'abwaab',
         date: '2022',
         title: 'Learning management system on Directus',
-        tags: ['Vue', 'Directus', 'PostgreSQL', 'Docker', 'MathJax', 'Node.js', 'Knex', 'Fullstack'],
+        tags: ['Vue', 'Directus', 'PostgreSQL', 'Docker', 'MathJax', 'Node.js', 'Knex', 'Fullstack', 'AWS', 'ExpressJS'],
         url: 'https://abwaab.com/',
         media: {
             type: 'video',
@@ -139,7 +139,7 @@ export default [
         id: 'lvivsoft',
         date: '2021',
         title: 'Corporate website for IT services company',
-        tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus', 'Fullstack', 'GraphQL', 'Website'],
+        tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus', 'Fullstack', 'GraphQL', 'Website', 'AWS'],
         url: 'https://lvivsoft.com',
         media: {
             type: 'video',
@@ -155,7 +155,7 @@ export default [
         id: 'victorarwas',
         date: '2021',
         title: 'Art gallery website',
-        tags: ['Webpack', 'SCSS', 'Vue', 'Vuex', 'SSR', 'MySQL', 'Directus', 'Fullstack', 'Node.js', 'Website'],
+        tags: ['Webpack', 'SCSS', 'Vue', 'Vuex', 'SSR', 'MySQL', 'Directus', 'Fullstack', 'Node.js', 'Website', 'AWS'],
         url: 'https://victorarwasart.com',
         media: {
             type: 'video',
@@ -188,7 +188,7 @@ export default [
         id: 'avenues',
         date: '2021',
         title: 'Corporate website for video editing company',
-        tags: ['Webpack', 'Vue', 'Vuex', 'Directus', 'MySQL', 'FFmpeg', 'Fullstack', 'HTML5 Video', 'Node.js', 'Website'],
+        tags: ['Webpack', 'Vue', 'Vuex', 'Directus', 'MySQL', 'FFmpeg', 'Fullstack', 'HTML5 Video', 'Node.js', 'Website', 'AWS'],
         url: 'https://avenues.studio',
         media: {
             type: 'video',
