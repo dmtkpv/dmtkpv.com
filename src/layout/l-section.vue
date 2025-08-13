@@ -6,13 +6,11 @@
 
     @reference "~/index.css";
 
-    .l-section { @apply
-        pt-(--padding-y);
-
+    .l-section {
         article { @apply
-            mb-16;
+            first:pt-[var(--padding-y)]
+            not-first:pt-[calc(var(--header)+var(--padding-y))];
         }
-
     }
     
 </style>
