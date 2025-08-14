@@ -8,8 +8,9 @@
 
     .l-section {
         article { @apply
-            first:pt-[var(--padding-y)]
-            not-first:pt-[calc(var(--header)+var(--padding-y))];
+            first:pt-(--padding-y)
+            not-first:pt-[calc(var(--header)+var(--padding-y))]
+            last:pb-(--padding-y);
         }
     }
     
