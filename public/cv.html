@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Dmitriy Karpov's CV</title>
+    <style>
+
+
+
+        /*
+            Base
+        */
+
+        body {
+            font-family: ui-sans-serif, system-ui, sans-serif;
+            font-size: 14px;
+            max-width: 720px;
+            padding: 0 32px;
+            margin: 0 auto;
+            line-height: 1.5;
+            color: #0f172a;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+            line-height: 1;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        a {
+            color: #b91c1c;
+            text-decoration: none;
+        }
+
+
+
+        /*
+            Header
+        */
+
+        header {
+
+            display: flex;
+            align-items: flex-end;
+
+            img {
+                width: 64px;
+                height: 64px;
+                background: #fee2e2;
+                border-radius: 4px;
+                margin-right: 16px;
+            }
+
+            h1 {
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            h2 {
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 1;
+                margin-top: 6px;
+            }
+
+        }
+
+
+
+        /*
+            Nav
+        */
+
+        nav {
+
+            margin-top: 16px;
+            font-size: 13px;
+
+            b {
+                font-weight: 600;
+            }
+
+            a {
+                font-weight: 400;
+            }
+
+
+
+        }
+
+
+
+        /*
+            Article
+        */
+
+        article {
+
+            margin-top: 40px;
+
+            h2 {
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 16px;
+            }
+
+            p {
+                margin-top: 16px;
+            }
+
+            b {
+                display: block;
+            }
+
+            time {
+                font-size: 12px;
+                color: #64748b;
+            }
+
+            ul {
+                li::marker { color: #b91c1c }
+                b { display: inline }
+            }
+
+        }
+
+
+        /*
+            Line
+        */
+
+        .frame {
+
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                left: -12px;
+                height: 100%;
+                width: 4px;
+                border: 1px solid #b91c1c;
+                border-right: 0;
+                border-radius: 4px 0 0 4px;
+            }
+
+            &:after {
+                content: attr(title);
+                position: absolute;
+                top: 50%;
+                right: 100%;
+                font-size: 10px;
+                transform: translate(50%, -50%) rotate(-90deg) translateY(-24px);
+                color: #64748b;
+                white-space: nowrap;
+                letter-spacing: 4px;
+                font-weight: 500;
+            }
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <!-- header -->
+
+    <header>
+        <img src="ava.png">
+        <div>
+            <h1>Dmitriy Karpov</h1>
+            <h2>Full Stack Developer (Vue.js + Node.js)</h2>
+        </div>
+    </header>
+
+
+    <!-- nav -->
+
+    <nav>
+        <p>
+            <b>Portfolio:</b>
+            <a href="https://www.dmtkpv.com" target="_blank">dmtkpv.com</a>
+        </p>
+        <p>
+            <b>Github:</b>
+            <a href="https://github.com/dmtkpv" target="_blank">github.com/dmtkpv</a>
+        </p>
+        <p>
+            <b>Codepen:</b>
+            <a href="https://codepen.io/dmtkpv/pens/popular" target="_blank">codepen.io/dmtkpv</a>
+        </p>
+        <p>
+            <b>Upwork:</b>
+            <a href="https://www.upwork.com/freelancers/~0135ab016017ab2278" target="_blank">upwork.com/freelancers/~0135ab016017ab2278</a>
+        </p>
+        <p>
+            <b>Telegram:</b>
+            <a href="https://t.me/dmtkpv" target="_blank">@dmtkpv</a>
+        </p>
+        <p>
+            <b>Email:</b>
+            <a href="mailto:dmtkpv@gmail.com">dmtkpv@gmail.com</a>
+        </p>
+    </nav>
+
+
+    <!-- skills -->
+
+    <article>
+        <h2>Skills</h2>
+        <ul>
+            <li>Designing modular <b>CSS</b> systems with SCSS by combining SMACSS and BEM best practices</li>
+            <li>Developing dynamic <b>JavaScript</b> solutions with modern ES6+ patterns</li>
+            <li>Building complex <b>Vue.js</b> applications with strong, scalable architectures and SSR capabilities</li>
+            <li>Creating attractive and performant <b>web animations</b> for DOM elements, 2D and WebGL canvases</li>
+            <li>Developing powerful and secure <b>Node.js</b> backends with rapid RESTful APIs</li>
+            <!--
+            <li>Designing robust <b>PostgreSQL</b> databases with advanced views and triggers</li>
+            <li >Refactoring and optimizing legacy code for improved performance, maintainability, and scalability</li>
+            -->
+        </ul>
+    </article>
+
+
+    <!-- tools -->
+
+    <article>
+        <h2>Tools & Technologies</h2>
+        <div class="frame" title="Frontend">
+            <p>
+                <b>Markup languages and template engines</b>
+                HTML5, XHTML, XML, SVG, EJS, Mustache.
+            </p>
+            <p>
+                <b>CSS tools and features</b>
+                SCSS, TailwindCSS, Flexbox, Grid, Animations, 3D Transforms, Media Queries, Variables, Functions.
+            </p>
+            <p>
+                <b>HTML5 APIs</b>
+                Canvas, History, WebSockets, Video, Audio, MediaSource, File, Fetch, Touch Events, Drag and Drop, Web Storage, IndexedDB, WebGL.
+            </p>
+            <p>
+                <b>JavaScript frameworks and libraries</b>
+                Vue.js, Nuxt.js, Astro, AngularJS, jQuery, Lodash, Charts.js, Highcharts, Pixi.js, GSAP, Anime.js, Socket.io, Axios, Google Maps, Sentry, Tinymce, Editor.js, Fabric.js.
+            </p>
+        </div>
+        <div class="frame" title="Backend">
+            <p>
+                <b>Node.js libraries and frameworks</b>
+                Express.js, Jest, Puppeteer, PM2, Dotenv(x), Joi, Knex, Axios, JSDOM, Nodemailer, Passport.js, Busboy, Sharp, Stripe, Google APIs (Cloud Storage, Places, Indexing).
+            </p>
+            <p>
+                <b>Bundlers and task runners</b>
+                Vite, Webpack, Rollup, ESBuild, Grunt, Gulp.
+            </p>
+            <p>
+                <b>Databases</b>
+                PostgreSQL, MySQL, MongoDB.
+            </p>
+            <p>
+                <b>Content management systems</b>
+                Directus, Netlify CMS.
+            </p>
+        </div>
+        <p>
+            <b>Other Technologies </b>
+            Docker, Chrome Extensions, Telegram Mini Apps, Apache Cordova.
+        </p>
+    </article>
+
+
+    <!--    <h2 style="page-break-before: always;">Languages</h2>-->
+    <!--    <p>Good reading and writing skills in English, with moderate speaking abilities. Fluent in Russian and Ukrainian.</p>-->
+
+    <!-- experience -->
+
+    <article>
+        <h2>Experience</h2>
+        <div class="frame" title="Freelance">
+            <p>
+                <time>Nov 2023 - Apr 2025</time>
+                <b>Full-Stack developer at <a href="https://bizberg.nl/">Bizberg</a></b>
+                Single-handedly сreated <a href="https://stage-app.nl/">stage-app.nl</a>, an application for finding internships, using Vue.js for the frontend and Node.js with PostgreSQL for the backend. Integrated Stripe for payment processing and implemented real-time features with Socket.io.
+            </p>
+            <p>
+                <time>Feb 2022 - Sep 2023</time>
+                <b>Full-Stack developer at <a href="https://abwaab.com/en">Abwaab</a></b>
+                Designed and optimized PostgreSQL database structures, developed custom extensions for Directus.
+            </p>
+            <p>
+                <time>Nov 2020 - Dec 2021</time>
+                <b>Full-Stack developer at <a href="https://www.squarestudio.org/">Square Studio</a></b>
+                Created custom-designed Vue.js websites powered by Directus on the backend, including <a href="https://www.victorarwas.com/">victorarwas.com</a>, <a href="https://avenues.studio/">avenues.studio</a>, <a href="https://www.odedwebman.com/">odedwebman.com</a>.
+            </p>
+            <p>
+                <time>Mar 2019 - Oct 2020</time>
+                <b>Senior front-end developer at <a href="https://openrm.co.jp/">Open Room</a></b>
+                Led the front-end development for <a href="https://forest.openrm.jp/">forest.openrm.jp</a>, an application that streamlines real estate sales. Built using Vue.js, with the Google Maps API for location features and the HTML5 Canvas API for interactive visualizations.
+            </p>
+            <p>
+                <time>May 2017 - Sep 2018</time>
+                <b>Front-end developer at <a href="https://ch.linkedin.com/company/dynconnect">Dynconnect</a></b>
+                Designed and developed dynamic dashboards for data visualization and content management, starting with Angular.js and later transitioning to Vue.js for improved performance and user experience.
+            </p>
+        </div>
+        <div class="frame" title="Permanent">
+            <p>
+                <time>Mar 2013 - Oct 2015</time>
+                <b>Front-end developer at <a href="https://areon.ua/en/">Areon Consulting</a></b>
+                Developed <a href="https://kyivstar.ua/miykyivstar">My Kyivstar</a>, a cross-platform mobile application, using Angular.js and PhoneGap, and created corporate websites for high-profile clients such as Pumb and Kyivstar.
+            </p>
+            <p>
+                <time>Apr 2011 – Dec 2012</time>
+                <b>Front-end developer at WhiteLord Solutions LLP</b>
+                Developed an admin panel and website for the <a href="https://www.facebook.com/angryheroes/">Angry Heroes</a> game, and created front-end interfaces for browser-based mobile games at <a href="https://wapgames.org.ua/">wapgames.org.ua</a>. Worked with HTML, CSS, and jQuery.
+            </p>
+        </div>
+    </article>
+
+</body>
+</html>
