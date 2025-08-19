@@ -93,7 +93,7 @@ export default [
 
     {
         id: 'dmtkpv-ssr',
-        date: '2023',
+        date: '2022',
         title: 'Server-side renderer for Vue 3',
         tags: ['Vite', 'Vue', 'SSR', 'Open Source', 'Node.js', 'ExpressJS'],
         url: 'https://github.com/dmtkpv/vite-vue-ssr',
@@ -139,7 +139,7 @@ export default [
         id: 'lvivsoft',
         date: '2021',
         title: 'Corporate website for IT services company',
-        tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus', 'Fullstack', 'GraphQL', 'Website', 'AWS'],
+        tags: ['Webpack', 'SCSS', 'Vue', 'SSR', 'MySQL', 'Directus', 'Fullstack', 'GraphQL', 'Website', 'AWS', 'Animation'],
         url: 'https://lvivsoft.com',
         media: {
             type: 'video',
@@ -218,7 +218,7 @@ export default [
         id: 'openroom-ocr',
         date: '2020',
         title: 'Property diagram manager',
-        tags: ['Webpack', 'Vue', 'Vuex', 'HTML5 Canvas', 'Web App', 'Frontend'],
+        tags: ['Webpack', 'Vue', 'Vuex', 'HTML5 Canvas', 'Web App', 'Frontend', 'Stripe'],
         url: 'https://forestapp.openrm.jp/',
         media: {
             type: 'video',
@@ -248,7 +248,7 @@ export default [
         id: 'surveys',
         date: '2019',
         title: 'Survey application',
-        tags: ['Webpack', 'Apache Cordova', 'Mobile App', 'UI/UX Design', 'GSAP', 'Frontend'],
+        tags: ['Webpack', 'Apache Cordova', 'Mobile App', 'UI/UX Design', 'GSAP', 'Frontend', 'Animation'],
         media: {
             type: 'video'
         },
@@ -262,7 +262,7 @@ export default [
         date: '2018',
         title: 'Sticker creation tool',
         url: 'https://barcode-editor-ks.netlify.app/',
-        tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design', 'Fabric.js', 'HTML5 Canvas', 'Web App', 'Frontend'],
+        tags: ['Webpack', 'Vue', 'Vuex', 'UI/UX Design', 'Fabric.js', 'HTML5 Canvas', 'Web App', 'Frontend', 'Directus'],
         media: {
             type: 'video'
         },
@@ -291,7 +291,7 @@ export default [
         date: '2018',
         title: 'Corporate website for game developer',
         url: 'https://upgames.ltd',
-        tags: ['AngularJS', 'GSAP', 'SVG', 'Directus', 'Fullstack', 'Website'],
+        tags: ['AngularJS', 'GSAP', 'SVG', 'Directus', 'Fullstack', 'Website', 'Animation'],
         media: {
             type: 'video'
         },
@@ -314,23 +314,9 @@ export default [
         }
     },
     {
-        client: clients.marc,
-        id: 'icons',
-        date: '2017',
-        title: 'Animated SVG icons',
-        url: 'https://svg-icons.netlify.app/icm.html',
-        tags: ['Animation', 'SVG', 'GSAP'],
-        media: {
-            type: 'video'
-        },
-        ffmpeg: {
-            input: 'mov',
-        }
-    },
-    {
         client: clients.raymond,
         id: 'mediascheppers',
-        date: '2016',
+        date: '2017',
         title: 'Corporate website for design agency',
         url: 'http://www.mediascheppers.nl',
         tags: ['AngularJS', 'Website', 'Frontend'],
@@ -340,6 +326,20 @@ export default [
         ffmpeg: {
             input: 'mov',
             y: 2
+        }
+    },
+    {
+        client: clients.marc,
+        id: 'icons',
+        date: '2016',
+        title: 'Animated SVG icons',
+        url: 'https://svg-icons.netlify.app/icm.html',
+        tags: ['Animation', 'SVG', 'GSAP'],
+        media: {
+            type: 'video'
+        },
+        ffmpeg: {
+            input: 'mov',
         }
     },
     {
