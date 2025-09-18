@@ -114,6 +114,19 @@ export default [
         }
     },
     {
+        id: 'dmtkpv-ssr',
+        date: '2022',
+        title: 'Server-side renderer for Vue 3',
+        tags: ['Vite', 'Vue', 'SSR', 'Open Source', 'Node.js', 'ExpressJS'],
+        url: 'https://github.com/dmtkpv/vite-vue-ssr',
+        media: {
+            type: 'image'
+        },
+        ffmpeg: {
+            input: 'png'
+        }
+    },
+    {
         client: clients.squarestudio,
         id: 'jurgenostarhild',
         date: 'Mar 2023',
@@ -127,5 +140,18 @@ export default [
             input: 'mov',
             y: 2
         }
+    },
+    {
+        id: 'dmtkpv-ssg',
+        date: '2025',
+        title: 'Static-site generator for Vue 3',
+        tags: ['Vue', 'Vite', 'Open Source', 'TypeScript', 'SSG', 'Node.js'],
+        url: 'https://github.com/dmtkpv/ssg',
+        media: {
+            type: 'video',
+        },
+        ffmpeg: {
+            input: 'png'
+        },
     },
 ]
